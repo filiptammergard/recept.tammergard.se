@@ -1,0 +1,59 @@
+---
+  import Author from './Author.astro';
+
+  export interface Props {
+    title: string;
+    author: string;
+    publishDate: string;
+    heroImage: string;
+    alt: string;
+  }
+
+  const { categories, description, minutes, title } = Astro.props
+---
+
+<article class="content">
+  <header>
+    <h1 class="title">{title}</h1>
+    <p>{minutes} min</p>
+    {categories.map((category) => <p>{category}</p>)}
+  </header>
+  <main>
+    <p>{description}</p>
+    <slot />
+  </main>
+</article>
+
+<style>
+  .content {
+    margin-bottom: 8rem;
+  }
+
+  .content :global(main > * + *) {
+    margin-top: 1rem;
+  }
+
+  .content :global(h2) {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 4px solid var(--theme-divider);
+  }
+
+  .title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 0;
+  }
+</style>
