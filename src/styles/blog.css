@@ -9,6 +9,8 @@
 	--color-white: #fff;
 	--color-black: #000014;
 
+  --color-accent: #0d72b1;
+
 	--color-gray-50: #f9fafb;
 	--color-gray-100: #f3f4f6;
 	--color-gray-200: #e5e7eb;
@@ -36,7 +38,7 @@
 
 :root {
 	color-scheme: light;
-	--theme-accent: var(--color-orange);
+	--theme-accent: var(--color-accent);
 	--theme-accent-rgb: var(--color-orange-rgb);
 	--theme-accent-opacity: 0.1;
 	--theme-divider: var(--color-gray-100);
