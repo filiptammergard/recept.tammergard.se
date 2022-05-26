@@ -1,16 +1,15 @@
 ---
-  import BaseHead from '../components/BaseHead.astro';
-  import Header from '../components/Header.astro';
-  import Recipe from '../components/Recipe.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Recipe from '../components/Recipe.astro';
 
-  const { content } = Astro.props;
-  const { categories, description, minutes, permalink, title } = content;
+const { content } = Astro.props;
+const { categories, description, minutes, permalink, title } = content;
 ---
 
-<html lang={content.lang || 'sv' }>
+<html lang="sv">
 
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-themes@1.9.0/themes/prism-lucario.css" />
   <BaseHead {description} {permalink} {title} />
 </head>
 
