@@ -2,7 +2,9 @@
 setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Morotssoppa
-description: En härlig soppa som är smidig att göra mycket av. Väldigt god att äta med nybakat bröd.
+description:
+  En härlig soppa som är smidig att göra mycket av. Väldigt god att äta med
+  nybakat bröd.
 categories:
   - vegetarisk
   - soppa
@@ -28,7 +30,11 @@ minutes: 60
 
 ## Tillagning
 
-1. Skala och riv morötterna grovt med ett rivjärn. Skala och finhacka löken. Fräs morötter och lök i olja ca 3 min. Tillsätt paprikapulver, oregano och timjan. Låt fräsa med ca 2 min.
-1. Tillsätt vatten, buljongtärningar, mjölk och crème fraîche. Låt puttra ca 10 min tills morotsbitarna mjuknat.
-1. Skölj och tärna tomaterna. Tillsätt dem till soppan. Krydda med salt och peppar.
+1. Skala och riv morötterna grovt med ett rivjärn. Skala och finhacka löken.
+   Fräs morötter och lök i olja ca 3 min. Tillsätt paprikapulver, oregano och
+   timjan. Låt fräsa med ca 2 min.
+1. Tillsätt vatten, buljongtärningar, mjölk och crème fraîche. Låt puttra ca 10
+   min tills morotsbitarna mjuknat.
+1. Skölj och tärna tomaterna. Tillsätt dem till soppan. Krydda med salt och
+   peppar.
 1. Sverva gärna med hembakat bröd.

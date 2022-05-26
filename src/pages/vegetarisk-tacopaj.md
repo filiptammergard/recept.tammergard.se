@@ -41,8 +41,10 @@ minutes: 60
 ## Tillagning
 
 - **Deg**: Arbeta samman degen, och tryck därefter ut den i en långpanna.
-- **Fyllning**: Koka linserna med tomatkross, morötter och vatten. Blanda i tacokrydda och majs.
-- **Sås**: Rör ihop majonnäs, creme fraiche och pressad vitlök. Tärna tomaterna och blanda i såsen.
+- **Fyllning**: Koka linserna med tomatkross, morötter och vatten. Blanda i
+  tacokrydda och majs.
+- **Sås**: Rör ihop majonnäs, creme fraiche och pressad vitlök. Tärna tomaterna
+  och blanda i såsen.
 - Fyll pajskalet med linsröra, bred över såsen.
 - **Toppning**: Lägg lökringar ovanpå såsen, och avsluta med ost.
 - Grädda i 30 minuter i 200 grader.

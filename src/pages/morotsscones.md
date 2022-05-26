@@ -2,7 +2,9 @@
 setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Morotsscones
-description: Den godaste varianten av scones man kan tänka sig. Smakar lite som morotskaka. Supergoda även utan sockret!
+description:
+  Den godaste varianten av scones man kan tänka sig. Smakar lite som morotskaka.
+  Supergoda även utan sockret!
 categories:
   - bröd
 minutes: 30
@@ -22,7 +24,9 @@ minutes: 30
 
 ## Tillagning
 
-1. Sätt ugnen på 225°C. Blanda mjöl, havregryn, bakpulver, salt, socker och kanel.
+1. Sätt ugnen på 225°C. Blanda mjöl, havregryn, bakpulver, salt, socker och
+   kanel.
 1. Finfördela smöret i blandningen. Rör ner morötter och crème fraîche.
-1. Dela degen i 2 delar. Platta ut dem till tunna, runda kakor med mjölad hand på bakplåtspapper på en plåt. Skåra dem med kniv i 4 delar.
+1. Dela degen i 2 delar. Platta ut dem till tunna, runda kakor med mjölad hand
+   på bakplåtspapper på en plåt. Skåra dem med kniv i 4 delar.
 1. Grädda i mitten av ugnen 15-18 minuter. Låt dem svalna.

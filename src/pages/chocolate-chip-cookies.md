@@ -26,6 +26,8 @@ minutes: 30
 1. Sätt ugnen på 175°.
 1. Blanda mjöl, bikarbonat och salt i en skål.
 1. Rör strö-, vanilj- och farinsocker och smör till krämig konsistens.
-1. Vispa äggen och rör ner dem och havregryn i smeten. Tillsätt sedan mjölblandningen och arbeta väl. Blanda sist i chokladen.
-1. Klicka ut på bakplåtspappersklädd eller smord plåt, storlek som rejäl köttbulle.
+1. Vispa äggen och rör ner dem och havregryn i smeten. Tillsätt sedan
+   mjölblandningen och arbeta väl. Blanda sist i chokladen.
+1. Klicka ut på bakplåtspappersklädd eller smord plåt, storlek som rejäl
+   köttbulle.
 1. Grädda mitt i ugnen i 8-12 minuter.

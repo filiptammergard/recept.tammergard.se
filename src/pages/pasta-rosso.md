@@ -28,6 +28,10 @@ minutes: 30
 
 1. Koka pasten enligt anvisningen på förpackningen.
 1. Hacka lök och vitlök. Grovriv morötterna. Stek i rapsolja.
-1. Tillsätt krossade tomater, grönsaksbuljongtärning och crème fraiche. Låt koka 15-20 min.
-1. Ansa och skär svampen i kvartar (om färsk svamp). Hetta upp en stekpanna och låt svampen steka tills den börjar bli lite torr. Tillsätt en klick smör. Stek någon minut. Smaka av med salt och peppar.
-1. Mixa såsen slät med stavmixer. Servera till den nykokta pastan. Toppa med svamp och oregano eller basilika.
+1. Tillsätt krossade tomater, grönsaksbuljongtärning och crème fraiche. Låt koka
+   15-20 min.
+1. Ansa och skär svampen i kvartar (om färsk svamp). Hetta upp en stekpanna och
+   låt svampen steka tills den börjar bli lite torr. Tillsätt en klick smör.
+   Stek någon minut. Smaka av med salt och peppar.
+1. Mixa såsen slät med stavmixer. Servera till den nykokta pastan. Toppa med
+   svamp och oregano eller basilika.

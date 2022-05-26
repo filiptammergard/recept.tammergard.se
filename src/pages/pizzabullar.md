@@ -49,7 +49,7 @@ description: Dessa serverade vi till fika efter vår vigsel.
   minuter till en tjock sås.
 - Stjälp upp degen på bakbordet. Knåda den så att luften går ur och dela i två
   bitar. Kavla ut till var sin rektangel, stor som en bakplåt ungefär. Bred på
-  fyllningen. Pensla lite vatten på ena långsidan, detta kommer att fungera
-  som lim när du rullar ihop degen. Rulla ihop degen som en rulltårta.
+  fyllningen. Pensla lite vatten på ena långsidan, detta kommer att fungera som
+  lim när du rullar ihop degen. Rulla ihop degen som en rulltårta.
 - Dela varje rulle i 2 till 3 centimeter breda skivor. Lägg dem på bakplåt med
   bakplåtspapper. Grädda i 225 grader mitt i ugnen i 10-12 minuter.

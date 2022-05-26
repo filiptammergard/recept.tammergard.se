@@ -31,8 +31,10 @@ minutes: 60
 ## Tillagning
 
 1. Sätt ugnen på 175°.
-1. **Kaka**:Vispa ägg och socker poröst. Blanda alla torra ingredienser med ägg- och sockerblandningen. Rör ihop, men inte med elvisp.
+1. **Kaka**:Vispa ägg och socker poröst. Blanda alla torra ingredienser med ägg-
+   och sockerblandningen. Rör ihop, men inte med elvisp.
 1. Blanda i morötterna och oljan. Grädda i nedre delen av ugnen ca 35 min.
 1. **Glasyr**: Vispa alla ingredienser till en jämn, vit och fluffig smet.
-1. Bred över glasyren över den svalnade kakan. Det är viktigt att kakan är helt kall, annars smälter glasyren.
+1. Bred över glasyren över den svalnade kakan. Det är viktigt att kakan är helt
+   kall, annars smälter glasyren.
 1. Gör vågmönster i glasyren med en gaffel.

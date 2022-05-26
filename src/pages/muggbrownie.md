@@ -2,7 +2,10 @@
 setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Muggbrownie
-description: Detta är den ultimala lösningen på problemet "sugen på något chokladigt och gott men inte på att lägga en massa tid på det". Smakar himmelskt och tar helt ärligt bara några minuter från idé till färdig att äta.
+description:
+  Detta är den ultimala lösningen på problemet "sugen på något chokladigt och
+  gott men inte på att lägga en massa tid på det". Smakar himmelskt och tar helt
+  ärligt bara några minuter från idé till färdig att äta.
 categories:
   - efterrätt
 minutes: 10
@@ -22,7 +25,9 @@ minutes: 10
 
 ## Tillagning
 
-1. Blanda de torra ingredienserna i muggen med en sked eller gaffel så att det blir slätt.
+1. Blanda de torra ingredienserna i muggen med en sked eller gaffel så att det
+   blir slätt.
 1. Tillsätt de blöta ingredienserna och blanda igen tills klumparna försvinner.
-1. Värm i mikro i ungefär 1 1/2 minut. Börja gärna med en minut och kör kortare stunder tills den är klar. Det ska vara fast inte torr när den är klar.
+1. Värm i mikro i ungefär 1 1/2 minut. Börja gärna med en minut och kör kortare
+   stunder tills den är klar. Det ska vara fast inte torr när den är klar.
 1. Toppa med glass eller grädde!

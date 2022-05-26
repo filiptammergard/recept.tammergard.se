@@ -2,7 +2,11 @@
 setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Grön ärtsoppa
-description: Denna gröna ärtsoppa serverade vi till förrätt på vårt bröllop. Den passar lika bra till middag, inte minst på ruskiga höstkvällar. Till bröllopsförrätten skulle små portioner serveras och då räckte det till dubbelt så många portioner.
+description:
+  Denna gröna ärtsoppa serverade vi till förrätt på vårt bröllop. Den passar
+  lika bra till middag, inte minst på ruskiga höstkvällar. Till
+  bröllopsförrätten skulle små portioner serveras och då räckte det till dubbelt
+  så många portioner.
 categories:
   - soppa
   - vegetarisk
@@ -29,4 +33,5 @@ source: https://www.ica.se/recept/gronartsoppa-med-tunnbrodrulle-721735/
 1. Häll på grädde och buljong och låt koka tills potatisen är mjuk.
 1. Häll i hälften av ärtorna och värm upp.
 1. Mixa slätt med en stavmixer.
-1. Koka upp soppan med resten av ärtorna. Smaka av noggrannt med salt och peppar, det ska vara ganska rejält kryddat!
+1. Koka upp soppan med resten av ärtorna. Smaka av noggrannt med salt och
+   peppar, det ska vara ganska rejält kryddat!

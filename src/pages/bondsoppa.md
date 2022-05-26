@@ -2,7 +2,9 @@
 setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Bondsoppa
-description: Enkel och god soppa! Går även bra att ha i 2 tsk fänkåsfrön om man gillar den smaken. Gott att servera med pesto!
+description:
+  Enkel och god soppa! Går även bra att ha i 2 tsk fänkåsfrön om man gillar den
+  smaken. Gott att servera med pesto!
 categories:
   - vegetarisk
   - soppa
@@ -26,7 +28,9 @@ minutes: 60
 ## Tillagning
 
 1. Hacka löken och pressa vitlöken. Stek löken i olivolja tills den mjuknat.
-1. Tillsätt de krossade tomaterna, vattnet, buljongtärningen, sambal oelek och salt. Låt koka upp.
+1. Tillsätt de krossade tomaterna, vattnet, buljongtärningen, sambal oelek och
+   salt. Låt koka upp.
 1. Tillsätt pastan och låt koka tills pastan nästan är klar.
-1. Rör ner frysta, tinade sojabönor och kidneybönor och låt koka med de sista 2 min.
+1. Rör ner frysta, tinade sojabönor och kidneybönor och låt koka med de sista 2
+   min.
 1. Servera gärna med bröd.

@@ -2,7 +2,9 @@
 setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Grönsakswok
-description: Smidigare rätt är svår att hitta! Men god är den. Kan serveras med till exempel glas- eller äggnudlar, men passar också fint till andra kolhydrater.
+description:
+  Smidigare rätt är svår att hitta! Men god är den. Kan serveras med till
+  exempel glas- eller äggnudlar, men passar också fint till andra kolhydrater.
 categories:
   - vegetarisk
   - vegansk
@@ -21,5 +23,6 @@ minutes: 60
 ## Tillagning
 
 1. Koka nudlarna enligt anvisningarna på förpackningen.
-1. Hätta upp olja i en wokpanna. Stek grönsakerna i några minuter tills de har fått lite färg.
+1. Hätta upp olja i en wokpanna. Stek grönsakerna i några minuter tills de har
+   fått lite färg.
 1. Tillsätt nötter, sweet chilisås och kryddor.

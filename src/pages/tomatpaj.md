@@ -26,6 +26,11 @@ minutes: 60
 ## Tillagning
 
 1. Arbeta ihop pajdegen och lägg den kallt ca 1 timme.
-1. Skålla tomaterna och hacka dem grovt. Finhacka löken och fräs den mjuk i en stor kastrull. Lägg ner tomathacket och rör ner tomatpuré, stött rosmarin och timjan. Smaka av med lite kajennpeppar. Koka sakta tills det mesta av vätskan kokat in.
-1. Sätt ugnen på 200°C. Kavla eller tryck ut degen i en pajform. Förgrädda ca 10 minuter. Täck botten med hälften av osten. Fyll på med tomatröran. Täck med tomatskivor, gärna i olika färger och former. Strö på resten av osten.
+1. Skålla tomaterna och hacka dem grovt. Finhacka löken och fräs den mjuk i en
+   stor kastrull. Lägg ner tomathacket och rör ner tomatpuré, stött rosmarin och
+   timjan. Smaka av med lite kajennpeppar. Koka sakta tills det mesta av vätskan
+   kokat in.
+1. Sätt ugnen på 200°C. Kavla eller tryck ut degen i en pajform. Förgrädda ca 10
+   minuter. Täck botten med hälften av osten. Fyll på med tomatröran. Täck med
+   tomatskivor, gärna i olika färger och former. Strö på resten av osten.
 1. Grädda mitt i ugnen i 15 minuter.
