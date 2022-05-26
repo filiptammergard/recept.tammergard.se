@@ -2,7 +2,7 @@
   // Component Imports
   import BaseHead from '../components/BaseHead.astro';
   import BlogHeader from '../components/BlogHeader.astro';
-  import BlogPostPreview from '../components/BlogPostPreview.astro';
+  import RecipePreview from '../components/RecipePreview.astro';
 
   // Component Script:
   // You can write any JavaScript/TypeScript that you'd like here.
@@ -72,7 +72,7 @@
       </section>
       <section aria-label="Blog post list">
         {recipes.map((recipe) =>
-        <BlogPostPreview post={recipe} />)}
+        <RecipePreview recipe={recipe} />)}
       </section>
     </main>
   </div>

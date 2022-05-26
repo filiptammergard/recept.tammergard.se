@@ -1,20 +1,20 @@
 ---
   export interface Props {
-    post: any;
+    recipe: any;
   }
 
-  const { post } = Astro.props;
+  const { recipe } = Astro.props;
 ---
 
 <article class="post-preview">
   <header>
-    <p class="publish-date">{post.frontmatter.publishDate}</p>
-    <a href={post.url}>
-      <h1 class="title">{post.frontmatter.title}</h1>
+    <p class="publish-date">{recipe.frontmatter.publishDate}</p>
+    <a href={recipe.url}>
+      <h1 class="title">{recipe.frontmatter.title}</h1>
     </a>
   </header>
-  <p>{post.frontmatter.description}</p>
-  <a href={post.url}>Read more</a>
+  <p>{recipe.frontmatter.description}</p>
+  <a href={recipe.url}>Read more</a>
 </article>
 
 <style>
