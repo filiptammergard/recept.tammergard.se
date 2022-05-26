@@ -1,3 +1,3 @@
 # Recept
 
-Filip & Ida Tammergårds receptsamling.
+Filip & Ida Tammergårds receptsamling 😋
