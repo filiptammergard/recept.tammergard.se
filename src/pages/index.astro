@@ -1,12 +1,12 @@
 ---
-  import BaseHead from '../components/BaseHead.astro';
-  import Header from '../components/Header.astro';
-  import RecipePreview from '../components/RecipePreview.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import RecipePreview from '../components/RecipePreview.astro';
 
-  const title = 'Recept';
-  const description = 'Filip & Ida Tammergårds receptsamling.';
-  const permalink = 'https://recept.tammergard.se/';
-  const recipes = await Astro.glob('./*.md');
+const title = 'Recept';
+const description = 'Filip & Ida Tammergårds receptsamling 😋';
+const permalink = 'https://recept.tammergard.se/';
+const recipes = await Astro.glob('./*.md');
 ---
 
 <html lang="en">
