@@ -1,22 +1,17 @@
 ---
-  import Author from './Author.astro';
-
   export interface Props {
+    description: string;
+    minutes: string;
     title: string;
-    author: string;
-    publishDate: string;
-    heroImage: string;
-    alt: string;
   }
 
-  const { categories, description, minutes, title } = Astro.props
+  const { description, minutes, title } = Astro.props
 ---
 
-<article class="content">
+<article>
   <header>
-    <h1 class="title">{title}</h1>
+    <h1>{title}</h1>
     <p>{minutes} min</p>
-    {categories.map((category) => <p>{category}</p>)}
   </header>
   <main>
     <p>{description}</p>
@@ -25,33 +20,23 @@
 </article>
 
 <style>
-  .content {
+  article {
     margin-bottom: 8rem;
   }
 
-  .content :global(main > * + *) {
-    margin-top: 1rem;
-  }
-
-  .content :global(h2) {
+  article :global(h2) {
     margin-top: 3rem;
     font-size: 1.5rem;
     font-weight: bold;
   }
 
   header {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     border-bottom: 4px solid var(--theme-divider);
   }
 
-  .title {
+  h1 {
     font-size: 2.25rem;
     font-weight: 700;
     margin: 0;
