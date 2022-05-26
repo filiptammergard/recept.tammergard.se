@@ -3,9 +3,6 @@ setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Morotslasagne
 description: En smarrig och saftig lasagne! Perfekt i en morotsälskares matlåda.
-categories:
-  - vegetarisk
-  - lasagne
 minutes: 60
 ---
 

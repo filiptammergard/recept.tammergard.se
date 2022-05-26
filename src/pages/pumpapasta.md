@@ -3,9 +3,6 @@ setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Pumpapasta
 description: Höstigt och härligt! Pumpa är verkligen festligt.
-slug: pumpapasta
-categories:
-  - vegetarisk
 minutes: 60
 ---
 

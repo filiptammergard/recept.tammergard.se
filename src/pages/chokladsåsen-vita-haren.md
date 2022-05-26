@@ -5,8 +5,6 @@ title: Chokladsåsen vita haren
 description:
   En favorit från Filips farmor Ruth. Den långa kokningen gör underverk! Kan
   serveras varm eller kall.
-categories:
-  - efterrätt
 minutes: 90
 ---
 

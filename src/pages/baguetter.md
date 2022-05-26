@@ -5,10 +5,6 @@ title: Baguetter
 description:
   Supersmidiga baguetter, inte minst när degen får jäsa över natten. Goda även
   att frysa ner och värma i mikron eller i ugnen på låg värme.
-amount: 3
-unit: st
-categories:
-  - bröd
 minutes: 60
 ---
 

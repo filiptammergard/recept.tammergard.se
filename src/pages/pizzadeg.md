@@ -3,8 +3,6 @@ setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Pizzadeg
 description: En enkel och bra pizzadeg, helt enkelt.
-categories:
-  - pizza
 minutes: 60
 ---
 

@@ -5,8 +5,6 @@ title: Halloumipasta
 description:
   En snabb favorit. Smakar finfint och perfekt att ta med sig som matsäck för
   att äta kall.
-categories:
-  - vegetarisk
 minutes: 30
 ---
 

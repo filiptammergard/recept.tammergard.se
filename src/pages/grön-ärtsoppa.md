@@ -7,9 +7,6 @@ description:
   lika bra till middag, inte minst på ruskiga höstkvällar. Till
   bröllopsförrätten skulle små portioner serveras och då räckte det till dubbelt
   så många portioner.
-categories:
-  - soppa
-  - vegetarisk
 minutes: 30
 source: https://www.ica.se/recept/gronartsoppa-med-tunnbrodrulle-721735/
 ---

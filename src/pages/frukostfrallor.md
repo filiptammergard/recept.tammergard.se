@@ -5,8 +5,6 @@ title: Frukostfrallor
 description:
   Goda frukostfrallor som är smidiga att göra. Man sätter bara en enkel deg på
   kvällen och bakar ut dem i ett nafs på morgonen.
-categories:
-  - bröd
 minutes: 60
 ---
 

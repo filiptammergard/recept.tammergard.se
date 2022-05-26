@@ -6,8 +6,6 @@ description:
   Detta är den ultimala lösningen på problemet "sugen på något chokladigt och
   gott men inte på att lägga en massa tid på det". Smakar himmelskt och tar helt
   ärligt bara några minuter från idé till färdig att äta.
-categories:
-  - efterrätt
 minutes: 10
 ---
 

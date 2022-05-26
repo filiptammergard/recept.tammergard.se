@@ -6,9 +6,6 @@ description:
   En väldigt god rätt! Morötterna blir godast om de får koka ganska länge så att
   de blir mjuka. Fungerar till i stort sett vilken kolhydrat som helst.
   Morotsstroganoff med matvete är en personlig favorit.
-categories:
-  - vegerarisk
-  - gryta
 minutes: 45
 ---
 

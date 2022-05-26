@@ -5,9 +5,6 @@ title: Morotssoppa
 description:
   En härlig soppa som är smidig att göra mycket av. Väldigt god att äta med
   nybakat bröd.
-categories:
-  - vegetarisk
-  - soppa
 minutes: 60
 ---
 

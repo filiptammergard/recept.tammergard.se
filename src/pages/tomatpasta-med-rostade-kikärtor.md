@@ -3,9 +3,6 @@ setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Tomatpasta med rostade kikärtor
 description: En billig och god pastarätt!
-categories:
-  - vegetarisk
-  - vegansk
 minutes: 30
 ---
 

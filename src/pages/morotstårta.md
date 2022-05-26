@@ -3,8 +3,6 @@ setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Morotstårta
 description: Denna serverade vi till fika efter vår vigsel.
-categories:
-  - efterrätt
 minutes: 60
 ---
 

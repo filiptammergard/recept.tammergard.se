@@ -5,9 +5,6 @@ title: Grönsakswok
 description:
   Smidigare rätt är svår att hitta! Men god är den. Kan serveras med till
   exempel glas- eller äggnudlar, men passar också fint till andra kolhydrater.
-categories:
-  - vegetarisk
-  - vegansk
 minutes: 60
 ---
 

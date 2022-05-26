@@ -5,9 +5,6 @@ title: Bondsoppa
 description:
   Enkel och god soppa! Går även bra att ha i 2 tsk fänkåsfrön om man gillar den
   smaken. Gott att servera med pesto!
-categories:
-  - vegetarisk
-  - soppa
 minutes: 60
 ---
 

@@ -2,11 +2,8 @@
 setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Pizzabullar
-slug: pizzabullar
-categories:
-  - vegetarisk
-minutes: 45
 description: Dessa serverade vi till fika efter vår vigsel.
+minutes: 45
 ---
 
 ## Ingredienser (25 st)

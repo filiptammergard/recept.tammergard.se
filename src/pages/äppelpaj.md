@@ -6,9 +6,6 @@ description:
   Även känd under namnet "Bittes äppelpaj". Minst lika god med halverad mängd
   socker, eller helt utan socker. Ett tips är att strö på lite kardemumma
   och/eller kanel på äpplena innan smeten läggs på.
-categories:
-  - paj
-  - efterrätt
 minutes: 60
 ---
 

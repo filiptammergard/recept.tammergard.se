@@ -6,8 +6,6 @@ description:
   Krämig och god svamprätt! Är extra god till spaghetti, men det funkar fint med
   till exempel potatis också. Det är också gott att ha i lite strimlad färsk
   basilika, eller basilikablad som garnering.
-categories:
-  - vegetarisk
 minutes: 45
 ---
 

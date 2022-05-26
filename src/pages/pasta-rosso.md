@@ -3,8 +3,6 @@ setup: |
   import Layout from '../layouts/Recipe.astro'
 title: Pasta rosso
 description: En mycket fin halvslät, smakrik sås till pastan
-categories:
-  - vegetarisk
 minutes: 30
 ---
 

@@ -5,8 +5,6 @@ title: Morotsscones
 description:
   Den godaste varianten av scones man kan tänka sig. Smakar lite som morotskaka.
   Supergoda även utan sockret!
-categories:
-  - bröd
 minutes: 30
 ---
 
