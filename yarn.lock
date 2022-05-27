@@ -429,6 +429,11 @@
   resolved "https://registry.yarnpkg.com/@tammergard/prettier-config/-/prettier-config-1.5.0.tgz#53b726c4ee589e235b554931a1aa44655fdf6951"
   integrity sha512-R+gTg/5ECvf/NbJr/ceji4t9E//6IVg/s9X/z93Fc5GzvGHvmLbuV7d71BzK+yjsz4uixduLfXimBHwy0oJmYA==
 
+"@tammergard/tsconfig@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@tammergard/tsconfig/-/tsconfig-1.0.0.tgz#cedb3a4c876dff9f987f43bcfaa8ea14b672bf80"
+  integrity sha512-D/tYvyL6eYZSOAMCIW0T2RApdvVukqAFPrUokqT3xpcx2fGDT/7qKHSDpXdkookAPCre40ETKhqFAxf9n1f7dw==
+
 "@types/acorn@^4.0.0":
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/@types/acorn/-/acorn-4.0.6.tgz#d61ca5480300ac41a7d973dd5b84d0a591154a22"
