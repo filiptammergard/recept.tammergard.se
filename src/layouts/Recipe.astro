@@ -4,7 +4,7 @@ import Header from '../components/Header.astro';
 import Recipe from '../components/Recipe.astro';
 
 const { content } = Astro.props;
-const { description, minutes, title } = content;
+const { description, minutes, source, title } = content;
 const permalink = `https://recept.tammergard.se/${title.toLowerCase().replace(/ /g, '-')}/`;
 ---
 
@@ -17,7 +17,7 @@ const permalink = `https://recept.tammergard.se/${title.toLowerCase().replace(/ 
 <body>
   <Header />
   <div class="wrapper">
-    <Recipe {description} {minutes} {title}>
+    <Recipe {description} {minutes} {source} {title}>
       <slot />
     </Recipe>
   </div>

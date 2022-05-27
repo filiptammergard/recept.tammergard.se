@@ -6,6 +6,7 @@ description:
   Goda frukostfrallor som är smidiga att göra. Man sätter bara en enkel deg på
   kvällen och bakar ut dem i ett nafs på morgonen.
 minutes: 60
+source: http://paindemartin.blogspot.com/2009/12/god-jullovsfrukost.html
 ---
 
 ## Ingredienser (8 små frallor)

@@ -6,6 +6,7 @@ description:
   Den godaste varianten av scones man kan tänka sig. Smakar lite som morotskaka.
   Supergoda även utan sockret!
 minutes: 30
+source: https://www.arla.se/recept/sota-morotsscones/
 ---
 
 ## Ingredienser (8 scones)
