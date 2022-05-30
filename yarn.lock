@@ -632,10 +632,10 @@ ast-types@0.14.2, ast-types@^0.14.2:
   dependencies:
     tslib "^2.0.1"
 
-astro@1.0.0-beta.35:
-  version "1.0.0-beta.35"
-  resolved "https://registry.yarnpkg.com/astro/-/astro-1.0.0-beta.35.tgz#42e631d914632c3ce64ff1d46a8da113d572da02"
-  integrity sha512-xbu3UxQ2wsNvWfsBha492rtGb/Megf2Ci5XrK1Pu84Ik9JuyBmRhyCBt+yntEBNVXIcgVY0FLw9uhQiUDSYL0Q==
+astro@1.0.0-beta.36:
+  version "1.0.0-beta.36"
+  resolved "https://registry.yarnpkg.com/astro/-/astro-1.0.0-beta.36.tgz#21c5cb00ba32e9d91e547fb031e48fde46a6deea"
+  integrity sha512-FbmhCU8OsIf6fBZTTO0L2PefGmUpatlOMqtzo/xJ4vcfja4WYjAzLcqTaYOOMrLkXB3yt8sxcdiYh+hJAxl+hg==
   dependencies:
     "@astrojs/compiler" "^0.15.1"
     "@astrojs/language-server" "^0.13.4"
