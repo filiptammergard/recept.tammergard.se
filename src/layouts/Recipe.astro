@@ -17,11 +17,11 @@ const permalink = `https://recept.tammergard.se/${slugify(title)}/`;
 
 <body>
   <Header />
-  <div class="wrapper">
+  <main class="wrapper">
     <Recipe {description} {minutes} {source} {title}>
       <slot />
     </Recipe>
-  </div>
+  </main>
 </body>
 
 </html>
