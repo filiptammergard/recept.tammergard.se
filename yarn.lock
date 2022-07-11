@@ -92,10 +92,10 @@
   resolved "https://registry.yarnpkg.com/@astrojs/prism/-/prism-0.4.1.tgz#c23224f03497e40f6a993fddde08f436e37ffd6c"
   integrity sha512-JxkrXFiFhfunOFBI2Xxwru9t4IzrLw+nfA7RkNnV8qP65BLidrwWS+NfZhOSVGTrbf+cQfF8QNe6O4gAX8wQHw==
 
-"@astrojs/react@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-0.2.0.tgz#24162cc1400c81c0cdf5b8ee6cd7b1282e9e556f"
-  integrity sha512-773g1Wghz0VJZfoJlMks8V/WRWcc6EvvxoU/K8q6nb2RHGNr8A88T/Z8v3qJTmrotHlhnl3WvUY8g681uWn9Pw==
+"@astrojs/react@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/react/-/react-0.2.1.tgz#47b2c1a6c935269f4702758b89a4fe4c4fdce346"
+  integrity sha512-SkEXXdGQ9+OV1kHUSD7PX9JxR/oe9hiiRmePdlP+B8ab5kItZTkSWNsziHjLwhj/zHWPCpGHU2GQEX5SYIHTzA==
   dependencies:
     "@babel/plugin-transform-react-jsx" "^7.17.12"
 
