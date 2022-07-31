@@ -3,6 +3,7 @@ layout: ../layouts/Recipe.astro
 title: Tomatpasta med rostade kikärtor
 description: En billig och god pastarätt!
 minutes: 30
+source: https://undertian.com/recept/snabb-tomatpasta-med-rostade-kikartor/
 ---
 
 ## Ingredienser (4 portioner)
