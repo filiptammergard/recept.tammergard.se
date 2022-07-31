@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Morotsstroganoff
 description:
   En väldigt god rätt! Morötterna blir godast om de får koka ganska länge så att

@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Frukostfrallor
 description:
   Goda frukostfrallor som är smidiga att göra. Man sätter bara en enkel deg på

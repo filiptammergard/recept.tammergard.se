@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Tomatpaj
 description: Smakrik och god tomatpaj. Funkar lika bra varm som kall.
 minutes: 60

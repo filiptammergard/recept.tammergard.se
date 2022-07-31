@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Bondsoppa
 description:
   Enkel och god soppa! Går även bra att ha i 2 tsk fänkåsfrön om man gillar den

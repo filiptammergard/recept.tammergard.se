@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Morotsscones
 description:
   Den godaste varianten av scones man kan tänka sig. Smakar lite som morotskaka.

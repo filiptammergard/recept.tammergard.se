@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Grönsakswok
 description:
   Smidigare rätt är svår att hitta! Men god är den. Kan serveras med till

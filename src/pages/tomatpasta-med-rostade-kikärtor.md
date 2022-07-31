@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Tomatpasta med rostade kikärtor
 description: En billig och god pastarätt!
 minutes: 30

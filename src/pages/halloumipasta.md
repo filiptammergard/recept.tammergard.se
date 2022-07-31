@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Halloumipasta
 description:
   En snabb favorit. Smakar finfint och perfekt att ta med sig som matsäck för

@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Äppelpaj
 description:
   Även känd under namnet "Bittes äppelpaj". Minst lika god med halverad mängd

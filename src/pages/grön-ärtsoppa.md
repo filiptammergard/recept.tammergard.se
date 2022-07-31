@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Grön ärtsoppa
 description:
   Denna gröna ärtsoppa serverade vi till förrätt på vårt bröllop. Den passar

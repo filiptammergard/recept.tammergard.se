@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Brownietårta med vit chokladpannacotta
 description: Vår bröllopstårta!
 minutes: 60

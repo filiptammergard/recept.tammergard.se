@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Chocolate chip cookies
 description: En stor favorit som vi serverade på fikat efter vår vigsel.
 minutes: 30

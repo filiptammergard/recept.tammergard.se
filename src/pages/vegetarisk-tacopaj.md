@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Vegetarisk tacopaj
 description: Den här tacopajen serverade vi på vår bröllopsfest.
 minutes: 60

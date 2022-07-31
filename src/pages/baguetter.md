@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Baguetter
 description:
   Supersmidiga baguetter, inte minst när degen får jäsa över natten. Goda även

@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Muggbrownie
 description:
   Detta är den ultimala lösningen på problemet "sugen på något chokladigt och

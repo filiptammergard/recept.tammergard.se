@@ -1,6 +1,5 @@
 ---
-setup: |
-  import Layout from '../layouts/Recipe.astro'
+layout: ../layouts/Recipe.astro
 title: Morotstårta
 description: Denna serverade vi till fika efter vår vigsel.
 minutes: 60
