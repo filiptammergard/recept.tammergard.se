@@ -5,6 +5,7 @@ description:
   Smidigare rätt är svår att hitta! Men god är den. Kan serveras med till
   exempel glas- eller äggnudlar, men passar också fint till andra kolhydrater.
 minutes: 60
+source: https://www.coop.se/recept/gronsakswok-med-cashewnotter/
 ---
 
 ## Ingredienser (4 portioner)
