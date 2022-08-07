@@ -16,7 +16,7 @@ minutes: 60
 - 2 msk olivolja
 - 1/2 tsk salt
 - 1 krm svartpeppar
-- 300 g pasta
+- 4 portioner pasta
 - 2 dl kokvatten
 - 65 g babyspenat
 

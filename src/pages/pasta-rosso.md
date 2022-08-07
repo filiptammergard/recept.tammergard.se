@@ -1,13 +1,16 @@
 ---
 layout: ../layouts/Recipe.astro
 title: Pasta rosso
-description: En mycket fin halvslät, smakrik sås till pastan
+description:
+  En slät, smakrik sås till pastan. Passar bra att göra mycket av och frysa ner
+  till ett senare tillfälle.
 minutes: 30
+source: https://www.coop.se/recept/pasta-rosso-med-vitloksfrasta-champinjoner/
 ---
 
 ## Ingredienser (4 portioner)
 
-- 320 g spaghetti
+- 4 portioner pasta
 - 1 gul lök
 - 2 vitlöksklyftor
 - 5 morötter
