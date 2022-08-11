@@ -73,10 +73,10 @@
     uvu "^0.5.0"
     vfile-message "^3.0.0"
 
-"@astrojs/preact@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@astrojs/preact/-/preact-1.0.0.tgz#7cd1e7fc321934c2c554f8963db376c43198dbce"
-  integrity sha512-xluOD8f5X46IIxjmYuYwhmNXJHUoYWJEsjiSj3GxIWnq9C32jJEtLj/+YOLdNghMuf2PHgUojkMsMQsJMTyZ8Q==
+"@astrojs/preact@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@astrojs/preact/-/preact-1.0.1.tgz#765709cb15357f7ad7ff9e9f3dc97f0909b42ec0"
+  integrity sha512-gDVvNP22rJiRSUdKwWmjZsm0LMBhWtMWoFc17PNYQVktw/XgWmYw68JPsfIg8Au6OOKTBbinRf/lhNicx6e2Rg==
   dependencies:
     "@babel/core" ">=7.0.0-0 <8.0.0"
     "@babel/plugin-transform-react-jsx" "^7.17.12"
