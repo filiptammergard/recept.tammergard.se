@@ -1,9 +1,9 @@
 ---
 export interface Props {
-  description: string;
-  minutes: string;
+  description: string
+  minutes: string
   source?: string
-  title: string;
+  title: string
 }
 
 const { description, minutes, source, title } = Astro.props
@@ -13,7 +13,13 @@ const { description, minutes, source, title } = Astro.props
   <header>
     <h1>{title}</h1>
     <p>{minutes} min</p>
-    {source && <p><a href={source}>Inspirationskälla</a></p>}
+    {
+      source && (
+        <p>
+          <a href={source}>Inspirationskälla</a>
+        </p>
+      )
+    }
   </header>
   <main>
     <p>{description}</p>

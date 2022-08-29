@@ -1,27 +1,25 @@
 ---
-import BaseHead from 'components/BaseHead.astro';
-import Header from 'components/Header.astro';
-import Recipe from 'components/Recipe.astro';
-import { slugify } from 'lib/slugify';
+import BaseHead from "components/BaseHead.astro"
+import Header from "components/Header.astro"
+import Recipe from "components/Recipe.astro"
+import { slugify } from "lib/slugify"
 
-const { content } = Astro.props;
-const { description, minutes, source, title } = content;
-const permalink = `https://recept.tammergard.se/${slugify(title)}/`;
+const { content } = Astro.props
+const { description, minutes, source, title } = content
+const permalink = `https://recept.tammergard.se/${slugify(title)}/`
 ---
 
 <html lang="sv">
+  <head>
+    <BaseHead {description} {permalink} {title} />
+  </head>
 
-<head>
-  <BaseHead {description} {permalink} {title} />
-</head>
-
-<body>
-  <Header />
-  <main class="wrapper">
-    <Recipe {description} {minutes} {source} {title}>
-      <slot />
-    </Recipe>
-  </main>
-</body>
-
+  <body>
+    <Header />
+    <main class="wrapper">
+      <Recipe {description} {minutes} {source} {title}>
+        <slot />
+      </Recipe>
+    </main>
+  </body>
 </html>

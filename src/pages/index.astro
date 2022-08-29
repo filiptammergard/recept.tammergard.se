@@ -1,49 +1,46 @@
 ---
-import BaseHead from 'components/BaseHead.astro';
-import Header from 'components/Header.astro';
-import RecipePreview from 'components/RecipePreview.astro';
+import BaseHead from "components/BaseHead.astro"
+import Header from "components/Header.astro"
+import RecipePreview from "components/RecipePreview.astro"
 
-const title = 'Recept';
-const description = 'Filip & Ida Tammergårds receptsamling 😋';
-const permalink = 'https://recept.tammergard.se/';
-const recipes = await Astro.glob('./*.md');
+const title = "Recept"
+const description = "Filip & Ida Tammergårds receptsamling 😋"
+const permalink = "https://recept.tammergard.se/"
+const recipes = await Astro.glob("./*.md")
 ---
 
 <html lang="en">
+  <head>
+    <BaseHead {title} {description} {permalink} />
 
-<head>
-  <BaseHead {title} {description} {permalink} />
+    <style>
+      .wrapper {
+        margin-bottom: 8rem;
+      }
 
-  <style>
-    .wrapper {
-      margin-bottom: 8rem;
-    }
+      .intro {
+        margin-top: 6rem;
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 4px solid var(--theme-divider);
+      }
 
-    .intro {
-      margin-top: 6rem;
-      padding-bottom: 2rem;
-      margin-bottom: 2rem;
-      border-bottom: 4px solid var(--theme-divider);
-    }
+      .title {
+        margin: 0;
+      }
+    </style>
+  </head>
 
-    .title {
-      margin: 0;
-    }
-  </style>
-</head>
-
-<body>
-  <Header />
-  <main class="wrapper">
-    <section class="intro" aria-labelledby="title">
-      <h1 class="title">{title}</h1>
-      <p>{description}</p>
-    </section>
-    <section aria-label="Receptsamling">
-      {recipes.map((recipe) =>
-      <RecipePreview recipe={recipe} />)}
-    </section>
-  </main>
-</body>
-
+  <body>
+    <Header />
+    <main class="wrapper">
+      <section class="intro" aria-labelledby="title">
+        <h1 class="title">{title}</h1>
+        <p>{description}</p>
+      </section>
+      <section aria-label="Receptsamling">
+        {recipes.map((recipe) => <RecipePreview recipe={recipe} />)}
+      </section>
+    </main>
+  </body>
 </html>
