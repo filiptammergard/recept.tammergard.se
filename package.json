@@ -15,7 +15,7 @@
     "preact": "10.10.6"
   },
   "devDependencies": {
-    "@astrojs/preact": "1.0.2",
+    "@astrojs/preact": "1.1.0",
     "@astrojs/react": "1.1.1",
     "@astrojs/sitemap": "1.0.0",
     "@tammergard/prettier-config": "1.5.0",
