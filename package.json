@@ -12,7 +12,7 @@
     "start": "astro dev"
   },
   "dependencies": {
-    "preact": "10.11.0"
+    "preact": "10.11.1"
   },
   "devDependencies": {
     "@astrojs/preact": "1.1.1",
