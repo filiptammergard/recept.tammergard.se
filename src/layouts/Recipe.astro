@@ -10,16 +10,16 @@ const permalink = `https://recept.tammergard.se/${slugify(title)}/`
 ---
 
 <html lang="sv">
-  <head>
-    <BaseHead {description} {permalink} {title} />
-  </head>
+	<head>
+		<BaseHead {description} {permalink} {title} />
+	</head>
 
-  <body>
-    <Header />
-    <main class="wrapper">
-      <Recipe {description} {minutes} {source} {title}>
-        <slot />
-      </Recipe>
-    </main>
-  </body>
+	<body>
+		<Header />
+		<main class="wrapper">
+			<Recipe {description} {minutes} {source} {title}>
+				<slot />
+			</Recipe>
+		</main>
+	</body>
 </html>

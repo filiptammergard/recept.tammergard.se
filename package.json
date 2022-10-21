@@ -1,28 +1,28 @@
 {
-  "name": "recept",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "build": "astro build",
-    "dev": "astro dev",
-    "format": "prettier --write .",
-    "format-check": "prettier --check .",
-    "preview": "astro preview",
-    "review": "yarn install --frozen-lockfile && yarn format-check && yarn build",
-    "start": "astro dev"
-  },
-  "dependencies": {
-    "preact": "10.11.2"
-  },
-  "devDependencies": {
-    "@astrojs/preact": "1.2.0",
-    "@astrojs/react": "1.2.0",
-    "@astrojs/sitemap": "1.0.0",
-    "@tammergard/prettier-config": "1.5.0",
-    "@tammergard/tsconfig": "1.0.0",
-    "astro": "1.5.2",
-    "prettier": "2.7.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+	"name": "recept",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"build": "astro build",
+		"dev": "astro dev",
+		"format": "prettier --write .",
+		"format-check": "prettier --check .",
+		"preview": "astro preview",
+		"review": "yarn install --frozen-lockfile && yarn format-check && yarn build",
+		"start": "astro dev"
+	},
+	"dependencies": {
+		"preact": "10.11.2"
+	},
+	"devDependencies": {
+		"@astrojs/preact": "1.2.0",
+		"@astrojs/react": "1.2.0",
+		"@astrojs/sitemap": "1.0.0",
+		"@tammergard/prettier-config": "2.0.0",
+		"@tammergard/tsconfig": "1.0.0",
+		"astro": "1.5.2",
+		"prettier": "2.7.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	}
 }

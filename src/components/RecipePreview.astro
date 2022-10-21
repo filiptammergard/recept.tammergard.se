@@ -1,37 +1,37 @@
 ---
 export interface Props {
-  recipe: any
+	recipe: any
 }
 
 const { recipe } = Astro.props
 ---
 
 <article>
-  <header>
-    <a href={recipe.url}>
-      <h1>{recipe.frontmatter.title}</h1>
-    </a>
-    <p>{recipe.frontmatter.minutes} min</p>
-  </header>
-  <p>{recipe.frontmatter.description}</p>
-  <a href={recipe.url}>Läs mer</a>
+	<header>
+		<a href={recipe.url}>
+			<h1>{recipe.frontmatter.title}</h1>
+		</a>
+		<p>{recipe.frontmatter.minutes} min</p>
+	</header>
+	<p>{recipe.frontmatter.description}</p>
+	<a href={recipe.url}>Läs mer</a>
 </article>
 
 <style>
-  article {
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-    border-bottom: 4px solid var(--theme-divider);
-  }
+	article {
+		padding-bottom: 2rem;
+		margin-bottom: 2rem;
+		border-bottom: 4px solid var(--theme-divider);
+	}
 
-  header {
-    padding-bottom: 2rem;
-  }
+	header {
+		padding-bottom: 2rem;
+	}
 
-  article h1 {
-    margin: 0;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: var(--theme-text);
-  }
+	article h1 {
+		margin: 0;
+		font-weight: 700;
+		font-size: 1.5rem;
+		color: var(--theme-text);
+	}
 </style>

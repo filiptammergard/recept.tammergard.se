@@ -1,45 +1,45 @@
 ---
 export interface Props {
-  description: string
-  minutes: string
-  source?: string
-  title: string
+	description: string
+	minutes: string
+	source?: string
+	title: string
 }
 
 const { description, minutes, source, title } = Astro.props
 ---
 
 <article>
-  <header>
-    <h1>{title}</h1>
-    <p>{minutes} min</p>
-    {
-      source && (
-        <p>
-          <a href={source}>Inspirationskälla</a>
-        </p>
-      )
-    }
-  </header>
-  <main>
-    <p>{description}</p>
-    <slot />
-  </main>
+	<header>
+		<h1>{title}</h1>
+		<p>{minutes} min</p>
+		{
+			source && (
+				<p>
+					<a href={source}>Inspirationskälla</a>
+				</p>
+			)
+		}
+	</header>
+	<main>
+		<p>{description}</p>
+		<slot />
+	</main>
 </article>
 
 <style>
-  article {
-    margin-top: 6rem;
-    margin-bottom: 8rem;
-  }
+	article {
+		margin-top: 6rem;
+		margin-bottom: 8rem;
+	}
 
-  header {
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-    border-bottom: 4px solid var(--theme-divider);
-  }
+	header {
+		padding-bottom: 2rem;
+		margin-bottom: 2rem;
+		border-bottom: 4px solid var(--theme-divider);
+	}
 
-  h1 {
-    margin: 0;
-  }
+	h1 {
+		margin: 0;
+	}
 </style>
