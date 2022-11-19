@@ -48,4 +48,4 @@ minutes: 45
   fyllningen. Pensla lite vatten på ena långsidan, detta kommer att fungera som
   lim när du rullar ihop degen. Rulla ihop degen som en rulltårta.
 - Dela varje rulle i 2 till 3 centimeter breda skivor. Lägg dem på bakplåt med
-  bakplåtspapper. Grädda i 225 grader mitt i ugnen i 10-12 minuter.
+  bakplåtspapper. Grädda i 225°C mitt i ugnen i 10-12 minuter.

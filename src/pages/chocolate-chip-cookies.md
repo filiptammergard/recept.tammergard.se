@@ -20,7 +20,7 @@ minutes: 30
 
 ## Tillagning
 
-1. Sätt ugnen på 175°.
+1. Sätt ugnen på 175°C.
 1. Blanda mjöl, bikarbonat och salt i en skål.
 1. Rör strö-, vanilj- och farinsocker och smör till krämig konsistens.
 1. Vispa äggen och rör ner dem och havregryn i smeten. Tillsätt sedan

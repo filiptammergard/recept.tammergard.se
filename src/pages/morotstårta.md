@@ -27,7 +27,7 @@ minutes: 60
 
 ## Tillagning
 
-1. Sätt ugnen på 175°.
+1. Sätt ugnen på 175°C.
 1. **Kaka**:Vispa ägg och socker poröst. Blanda alla torra ingredienser med ägg-
    och sockerblandningen. Rör ihop, men inte med elvisp.
 1. Blanda i morötterna och oljan. Grädda i nedre delen av ugnen ca 35 min.

@@ -44,4 +44,4 @@ minutes: 60
   och blanda i såsen.
 - Fyll pajskalet med linsröra, bred över såsen.
 - **Toppning**: Lägg lökringar ovanpå såsen, och avsluta med ost.
-- Grädda i 30 minuter i 200 grader.
+- Grädda i 30 minuter i 200°C.
