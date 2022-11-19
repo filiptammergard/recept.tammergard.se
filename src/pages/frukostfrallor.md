@@ -30,5 +30,5 @@ source: http://paindemartin.blogspot.com/2009/12/god-jullovsfrukost.html
    bakspade eller stekspade och lägg bitarna på den heta plåten. Eftersom plåten
    är varm kommer bröden inte fastna, men om man vill kan man ändå lägga ett
    bakplåtspapper emellan.
-1. Sätt in i ugnen och grädda tills bröden har fått fin färg, ungefär 15 min.
+1. Sätt in i ugnen och grädda tills bröden har fått fin färg, ungefär 15 minuter.
    Låt bröden svalna på ett galler.

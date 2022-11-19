@@ -31,9 +31,9 @@ source: https://undertian.com/recept/snabb-tomatpasta-med-rostade-kikartor/
 - Hetta upp kastrull eller gryta och fräs löken mjuk i olja. Lägg i rotfrukter
   och låt dem fräsa med och bli mjuka i ett par minuter. Rör om.
 - Häll i krossade tomater och tillsätt vatten. Rör om.
-- Tillsätt grönsaksbuljongtärning och låt puttra i ca 10 min. Ha i kryddorna.
+- Tillsätt grönsaksbuljongtärning och låt puttra i ca 10 minuter. Ha i kryddorna.
 - Koka spaghettin enligt anvisningarna på förpackningen.
 - **Rostade kikärtor**: Sätt ugnen på 150°C.
 - Blanda kikärtor, olja, paprikapulver och salt. Lägg på en plåt och ställ in i
-  ugnen i ca 10 min. Kikärtorna ska bli lätt rostade, inte bruna.
+  ugnen i ca 10 minuter. Kikärtorna ska bli lätt rostade, inte bruna.
 - Blanda spaghettin med pastasåsen och servera med kikärtor. Smula över fetaost.

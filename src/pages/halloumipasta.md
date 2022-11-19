@@ -24,7 +24,7 @@ minutes: 30
 
 1. Koka pastan enligt anvisningen på förpackningen.
 1. Strimla paprikorna och hacka löken. Fräs paprika, lök och pressad vitlök i
-   olja i ca 5 min. Häll paprikafräset i kastrullen med den avrunna pastan och
+   olja i ca 5 minuter. Häll paprikafräset i kastrullen med den avrunna pastan och
    blanda i kryddorna.
 1. Skiva halloumin och stek tills den är gyllenbrun på båda sidorna. Tärna den
    och häll i kastrullen.

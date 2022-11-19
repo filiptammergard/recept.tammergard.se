@@ -34,6 +34,6 @@ minutes: 45
    morötter, lök och vitkål i olja.
 1. Tillsätt grönsaksbuljongtärning, sköljda linser, vatten, krossade tomater och
    kidneybönor.
-1. Låt koka i 10-15 min under lock eller tills linserna är färdiga.
+1. Låt koka i 10-15 minuter under lock eller tills linserna är färdiga.
 1. Tillsätt pressad vitlök, rödvinsvinäger och kryddor.
 1. Serveras med ris eller pasta eller liknande.

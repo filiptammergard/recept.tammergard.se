@@ -28,5 +28,5 @@ minutes: 60
    salt. Låt koka upp.
 1. Tillsätt pastan och låt koka tills pastan nästan är klar.
 1. Rör ner frysta, tinade sojabönor och kidneybönor och låt koka med de sista 2
-   min.
+   minuterna.
 1. Servera gärna med bröd.

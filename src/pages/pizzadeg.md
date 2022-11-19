@@ -18,7 +18,7 @@ minutes: 60
 
 1. Sätt ugnen på 200°C.
 1. Blanda jäst, socker, salt, olja och vatten i en bunke.
-1. Rör i mjölet, lite i taget, tills degen är fast. Låt degen jäsa i 25 min.
+1. Rör i mjölet, lite i taget, tills degen är fast. Låt degen jäsa i 25 minuter.
 1. Dela degen i 4 bitar och baka ut dem på ett mjölat bakbord.
 1. Toppa efter tycke och smak.
 1. Grädda i mitten av ugnen tills pizzan har fått fin färg.

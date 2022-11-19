@@ -29,7 +29,7 @@ source: https://www.coop.se/recept/pasta-rosso-med-vitloksfrasta-champinjoner/
 1. Koka pasten enligt anvisningen på förpackningen.
 1. Hacka lök och vitlök. Grovriv morötterna. Stek i rapsolja.
 1. Tillsätt krossade tomater, grönsaksbuljongtärning och crème fraiche. Låt koka
-   15-20 min.
+   15-20 minuter.
 1. Ansa och skär svampen i kvartar (om färsk svamp). Hetta upp en stekpanna och
    låt svampen steka tills den börjar bli lite torr. Tillsätt en klick smör.
    Stek någon minut. Smaka av med salt och peppar.

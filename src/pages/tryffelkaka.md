@@ -26,7 +26,7 @@ minutes: 60
 
 - **Kaka**: Smält smöret.
 - Rör i socker, kakao, vaniljsocker och mjöl. Rör till sist i ägg.
-- Grädda i smord form i 20 min i 175°C. Kakan ska vara lite kladdig. Låt svalna.
+- Grädda i smord form i 20 minuter i 175°C. Kakan ska vara lite kladdig. Låt svalna.
 - **Glasyr**: Koka ihop grädde och smör.
 - Lägg i bitar av choklad under omrörning och rör till chokladen har smält.
 - Ställ in smeten glasyren i kylskåpet tills den har tjocknat lite.

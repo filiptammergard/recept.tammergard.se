@@ -27,9 +27,9 @@ minutes: 60
 1. Sätt ugnen på 225°C. Hacka löken och grovriv morötterna. Fräs löken och
    morötterna i olja så att det blir mjukt men inte brynt.
 1. Tillsätt krossade tomater, pressad vitlök, kryddor och chilisås så att
-   blandningen får god smak. Låt puttra ca 15 min på svag värme.
+   blandningen får god smak. Låt puttra ca 15 minuter på svag värme.
 1. Smaka av och krydda eventuellt mer. Ta grytan av plattan och rör ner keso och
    crème fraîche.
 1. Varva sås och lasagneplattor i en ugnssäker form. Börja och sluta med sås.
    Toppa med riven ost.
-1. Grädda i mitten av ugnen ca 20-25 min eller tills lasagnen har fått fin färg.
+1. Grädda i mitten av ugnen ca 20-25 minuter eller tills lasagnen har fått fin färg.
