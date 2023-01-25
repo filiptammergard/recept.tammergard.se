@@ -15,12 +15,12 @@
 		"preact": "10.11.3"
 	},
 	"devDependencies": {
-		"@astrojs/preact": "1.2.0",
-		"@astrojs/react": "1.2.2",
+		"@astrojs/preact": "2.0.0",
+		"@astrojs/react": "2.0.0",
 		"@astrojs/sitemap": "1.0.0",
 		"@tammergard/prettier-config": "2.0.0",
 		"@tammergard/tsconfig": "1.0.0",
-		"astro": "1.9.2",
+		"astro": "2.0.1",
 		"prettier": "2.8.3",
 		"react": "18.2.0",
 		"react-dom": "18.2.0"
