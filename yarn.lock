@@ -547,10 +547,10 @@
   resolved "https://registry.yarnpkg.com/@tammergard/prettier-config/-/prettier-config-2.0.0.tgz#d2982372728c28ab6e4efda92ea8a2e3acabec82"
   integrity sha512-btdjGQ8/70ILacX4bjLgEWO8mZ8Vh46kcKTBvzDqht9SsmqOmfRSJlDR2rsWRYHasx09ijbSFcamk+QdEQXbOg==
 
-"@tammergard/tsconfig@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@tammergard/tsconfig/-/tsconfig-1.0.0.tgz#cedb3a4c876dff9f987f43bcfaa8ea14b672bf80"
-  integrity sha512-D/tYvyL6eYZSOAMCIW0T2RApdvVukqAFPrUokqT3xpcx2fGDT/7qKHSDpXdkookAPCre40ETKhqFAxf9n1f7dw==
+"@tammergard/tsconfig@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@tammergard/tsconfig/-/tsconfig-2.2.0.tgz#a42e00fbc80b73e36fb608fcce67ef2d66196ea1"
+  integrity sha512-U83DSa4TFOzcIf7hYW5J/FprQMgvau8tpJKELJX+x+IH6UFIByJ3SpzIbwPSAwNFuxswlnEzyC9lq1jOHbNmRQ==
 
 "@types/babel__core@^7.1.19":
   version "7.20.0"
