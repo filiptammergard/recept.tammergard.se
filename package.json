@@ -8,7 +8,7 @@
 		"format": "prettier --write .",
 		"format-check": "prettier --check .",
 		"preview": "astro preview",
-		"review": "yarn install --frozen-lockfile && yarn format-check && yarn build",
+		"review": "pnpm install --frozen-lockfile && pnpm format-check && pnpm build",
 		"start": "astro dev"
 	},
 	"dependencies": {
