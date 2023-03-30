@@ -1,7 +1,6 @@
 {
-	"extends": "@tammergard/tsconfig/tsconfig.json",
+	"extends": "@tammergard/tsconfig",
 	"compilerOptions": {
-		"baseUrl": "src",
-		"moduleResolution": "bundler"
+		"baseUrl": "./src"
 	}
 }
