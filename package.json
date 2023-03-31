@@ -16,7 +16,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/preact": "2.1.0",
-		"@astrojs/react": "2.1.0",
+		"@astrojs/react": "2.1.1",
 		"@astrojs/sitemap": "1.2.1",
 		"@tammergard/prettier-config": "2.0.0",
 		"@tammergard/tsconfig": "2.2.0",
