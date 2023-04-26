@@ -5,13 +5,13 @@ import RecipePreview from "@components/RecipePreview.astro"
 
 const title = "Recept"
 const description = "Filip & Ida Tammergårds receptsamling 😋"
-const permalink = "https://recept.tammergard.se/"
+const permalink = Astro.url.href
 const recipes = await Astro.glob("./*.md")
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead {title} {description} {permalink} />
+		<BaseHead title={title} description={description} permalink={permalink} />
 
 		<style>
 			.wrapper {

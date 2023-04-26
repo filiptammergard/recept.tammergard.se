@@ -2,22 +2,35 @@
 import BaseHead from "@components/BaseHead.astro"
 import Header from "@components/Header.astro"
 import Recipe from "@components/Recipe.astro"
-import { slugify } from "@lib/slugify"
+
+interface Props {
+	content: {
+		description: string
+		minutes: string
+		source?: string
+		title: string
+	}
+}
 
 const { content } = Astro.props
 const { description, minutes, source, title } = content
-const permalink = `https://recept.tammergard.se/${slugify(title)}/`
+const permalink = Astro.url.href
 ---
 
 <html lang="sv">
 	<head>
-		<BaseHead {description} {permalink} {title} />
+		<BaseHead description={description} permalink={permalink} title={title} />
 	</head>
 
 	<body>
 		<Header />
 		<main class="wrapper">
-			<Recipe {description} {minutes} {source} {title}>
+			<Recipe
+				description={description}
+				minutes={minutes}
+				source={source}
+				title={title}
+			>
 				<slot />
 			</Recipe>
 		</main>
