@@ -1,8 +1,8 @@
 ---
-import BaseHead from "components/BaseHead.astro"
-import Header from "components/Header.astro"
-import Recipe from "components/Recipe.astro"
-import { slugify } from "lib/slugify"
+import BaseHead from "@components/BaseHead.astro"
+import Header from "@components/Header.astro"
+import Recipe from "@components/Recipe.astro"
+import { slugify } from "@lib/slugify"
 
 const { content } = Astro.props
 const { description, minutes, source, title } = content
