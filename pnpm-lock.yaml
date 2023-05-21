@@ -2,13 +2,13 @@ lockfileVersion: '6.0'
 
 dependencies:
   preact:
-    specifier: 10.14.1
-    version: 10.14.1
+    specifier: 10.15.0
+    version: 10.15.0
 
 devDependencies:
   '@astrojs/preact':
     specifier: 2.2.0
-    version: 2.2.0(preact@10.14.1)
+    version: 2.2.0(preact@10.15.0)
   '@astrojs/react':
     specifier: 2.2.0
     version: 2.2.0(@types/react-dom@18.0.11)(@types/react@18.0.31)(react-dom@18.2.0)(react@18.2.0)
@@ -91,7 +91,7 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/preact@2.2.0(preact@10.14.1):
+  /@astrojs/preact@2.2.0(preact@10.15.0):
     resolution: {integrity: sha512-SP8ODC/ywPFytVF9jX0Nrf9JoMFgXdsRPritLV9v4zPnarIwypW0kIFgm3rjT4ot8CQQj9J5cztqmD+hrDOvMg==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
@@ -99,10 +99,10 @@ packages:
     dependencies:
       '@babel/core': 7.21.3
       '@babel/plugin-transform-react-jsx': 7.21.0(@babel/core@7.21.3)
-      '@preact/signals': 1.1.3(preact@10.14.1)
+      '@preact/signals': 1.1.3(preact@10.15.0)
       babel-plugin-module-resolver: 5.0.0
-      preact: 10.14.1
-      preact-render-to-string: 5.2.6(preact@10.14.1)
+      preact: 10.15.0
+      preact-render-to-string: 5.2.6(preact@10.15.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -686,13 +686,13 @@ packages:
     resolution: {integrity: sha512-Kui4p7PMcEQevBgsTO0JBo3gyQ88Q3qzEvsVCuSp11t0JcN4DmGCTJcGRVSCq7Bn7lGxJBO+57jNSzDoDJ+QmA==}
     dev: true
 
-  /@preact/signals@1.1.3(preact@10.14.1):
+  /@preact/signals@1.1.3(preact@10.15.0):
     resolution: {integrity: sha512-N09DuAVvc90bBZVRwD+aFhtGyHAmJLhS3IFoawO/bYJRcil4k83nBOchpCEoS0s5+BXBpahgp0Mjf+IOqP57Og==}
     peerDependencies:
       preact: 10.x
     dependencies:
       '@preact/signals-core': 1.2.3
-      preact: 10.14.1
+      preact: 10.15.0
     dev: true
 
   /@tammergard/prettier-config@2.0.1(prettier@2.8.8):
@@ -2484,17 +2484,17 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /preact-render-to-string@5.2.6(preact@10.14.1):
+  /preact-render-to-string@5.2.6(preact@10.15.0):
     resolution: {integrity: sha512-JyhErpYOvBV1hEPwIxc/fHWXPfnEGdRKxc8gFdAZ7XV4tlzyzG847XAyEZqoDnynP88akM4eaHcSOzNcLWFguw==}
     peerDependencies:
       preact: '>=10'
     dependencies:
-      preact: 10.14.1
+      preact: 10.15.0
       pretty-format: 3.8.0
     dev: true
 
-  /preact@10.14.1:
-    resolution: {integrity: sha512-4XDSnUisk3YFBb3p9WeKeH1mKoxdFUsaXcvxs9wlpYR1wax/TWJVqhwmIWbByX0h7jMEJH6Zc5J6jqc58FKaNQ==}
+  /preact@10.15.0:
+    resolution: {integrity: sha512-nZSa8M2R2m1n7nJSBlzDpxRJaIsejrTO1vlFbdpFvyC8qM1iU+On2y0otfoUm6SRB5o0lF0CKDFxg6grEFU0iQ==}
 
   /preferred-pm@3.0.3:
     resolution: {integrity: sha512-+wZgbxNES/KlJs9q40F/1sfOd/j7f1O9JaHcW5Dsn3aUUOZg3L2bjpVUcKV2jvtElYfoTuQiNeMfQJ4kwUAhCQ==}
