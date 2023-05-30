@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
   preact:
@@ -7,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@astrojs/preact':
-    specifier: 2.2.0
-    version: 2.2.0(preact@10.15.1)
+    specifier: 2.2.1
+    version: 2.2.1(preact@10.15.1)
   '@astrojs/react':
     specifier: 2.2.0
     version: 2.2.0(@types/react-dom@18.0.11)(@types/react@18.0.31)(react-dom@18.2.0)(react@18.2.0)
@@ -91,8 +95,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/preact@2.2.0(preact@10.15.1):
-    resolution: {integrity: sha512-SP8ODC/ywPFytVF9jX0Nrf9JoMFgXdsRPritLV9v4zPnarIwypW0kIFgm3rjT4ot8CQQj9J5cztqmD+hrDOvMg==}
+  /@astrojs/preact@2.2.1(preact@10.15.1):
+    resolution: {integrity: sha512-lObgrX/qfK2sEnGDWoyQ8KojFJ54FIKB4TeywWmgj4ZTg0yLnvvOz6ReyPQ8VfR/1MU+vWs22jE4cuZJ/vPnOA==}
     engines: {node: '>=16.12.0'}
     peerDependencies:
       preact: ^10.6.5
