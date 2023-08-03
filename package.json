@@ -21,7 +21,7 @@
 		"@tammergard/prettier-config": "2.0.2",
 		"@tammergard/tsconfig": "2.6.0",
 		"astro": "2.9.7",
-		"prettier": "3.0.0",
+		"prettier": "3.0.1",
 		"react": "18.2.0",
 		"react-dom": "18.2.0"
 	}
