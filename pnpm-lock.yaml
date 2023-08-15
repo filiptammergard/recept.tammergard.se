@@ -17,8 +17,8 @@ devDependencies:
     specifier: 2.2.1
     version: 2.2.1(@types/react-dom@18.0.11)(@types/react@18.0.31)(react-dom@18.2.0)(react@18.2.0)
   '@astrojs/sitemap':
-    specifier: 2.0.1
-    version: 2.0.1
+    specifier: 2.0.2
+    version: 2.0.2
   '@tammergard/prettier-config':
     specifier: 2.0.2
     version: 2.0.2(prettier@3.0.1)
@@ -141,8 +141,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/sitemap@2.0.1:
-    resolution: {integrity: sha512-unoaSEyHuR8IApsPN467SD5FMm4PBnaQSHbtvt4dVS3PMDObZV5/lKIbjlfSad7ENzuvpBSLCGyLDOykXUNu6w==}
+  /@astrojs/sitemap@2.0.2:
+    resolution: {integrity: sha512-dFWtdFwN8kxDiqIxF8T8ODqsUr6hG+EQlFEqm+3oQkhAkucF9QkYLM5Q72mEbYytkL4jvKyHbW1u10T5sWBZew==}
     dependencies:
       sitemap: 7.1.1
       zod: 3.21.4
