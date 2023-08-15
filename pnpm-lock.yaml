@@ -21,7 +21,7 @@ devDependencies:
     version: 2.0.2
   '@tammergard/prettier-config':
     specifier: 2.0.2
-    version: 2.0.2(prettier@3.0.1)
+    version: 2.0.2(prettier@3.0.2)
   '@tammergard/tsconfig':
     specifier: 2.6.0
     version: 2.6.0(typescript@5.0.2)
@@ -29,8 +29,8 @@ devDependencies:
     specifier: 2.10.8
     version: 2.10.8
   prettier:
-    specifier: 3.0.1
-    version: 3.0.1
+    specifier: 3.0.2
+    version: 3.0.2
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -901,12 +901,12 @@ packages:
       preact: 10.17.0
     dev: true
 
-  /@tammergard/prettier-config@2.0.2(prettier@3.0.1):
+  /@tammergard/prettier-config@2.0.2(prettier@3.0.2):
     resolution: {integrity: sha512-DzMXG5A3WX+r7CtTzUJaJCSYc8RcSEV5M6lBFa5xJWq2flPo8NL5hCMZFGo7HZLOEJACdRfGr5mVowQ7M4x8Lg==}
     peerDependencies:
       prettier: '>=2.6.0'
     dependencies:
-      prettier: 3.0.1
+      prettier: 3.0.2
     dev: true
 
   /@tammergard/tsconfig@2.6.0(typescript@5.0.2):
@@ -2769,8 +2769,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.0.1:
-    resolution: {integrity: sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==}
+  /prettier@3.0.2:
+    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
