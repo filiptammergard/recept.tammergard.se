@@ -26,8 +26,8 @@ devDependencies:
     specifier: 2.8.0
     version: 2.8.0(typescript@5.0.2)
   astro:
-    specifier: 4.3.3
-    version: 4.3.3(typescript@5.0.2)
+    specifier: 4.3.4
+    version: 4.3.4(typescript@5.0.2)
   prettier:
     specifier: 3.2.5
     version: 3.2.5
@@ -1038,8 +1038,8 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: true
 
-  /astro@4.3.3(typescript@5.0.2):
-    resolution: {integrity: sha512-8Vfcv8LuCfzkLj+NMk7i7pu5o0MPyDkYqUYWELSwKxWf85zJSNU4oLg4DlEZWbVpm5LeTfVrpSGrZGy5n4grBg==}
+  /astro@4.3.4(typescript@5.0.2):
+    resolution: {integrity: sha512-BWzGGn/PuwmT0DWX+yXa/jUq99e85AGh9/C5IFAKIfp22Nk88dOfX89RoqKBWPPp2BrK2vsdCFd0WUv8XJh80w==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
