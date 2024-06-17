@@ -12,8 +12,8 @@ dependencies:
     specifier: 3.6.0
     version: 3.6.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.2.0)(react@18.3.1)(vite@5.3.1)
   '@astrojs/sitemap':
-    specifier: 3.1.2
-    version: 3.1.2
+    specifier: 3.1.6
+    version: 3.1.6
   '@tammergard/prettier-config':
     specifier: 2.1.0
     version: 2.1.0(prettier@3.2.5)
@@ -126,10 +126,11 @@ packages:
       - vite
     dev: false
 
-  /@astrojs/sitemap@3.1.2:
-    resolution: {integrity: sha512-FxOJldIl5ltZ5CNjocQxHkAO9orwHBjqtaU28o4smobp9vowS0nbGp+I9CrPxkzWdl1crSDm9vjL9tnvG1DSug==}
+  /@astrojs/sitemap@3.1.6:
+    resolution: {integrity: sha512-1Qp2NvAzVImqA6y+LubKi1DVhve/hXXgFvB0szxiipzh7BvtuKe4oJJ9dXSqaubaTkt4nMa6dv6RCCAYeB6xaQ==}
     dependencies:
       sitemap: 7.1.2
+      stream-replace-string: 2.0.0
       zod: 3.23.8
     dev: false
 
@@ -3304,6 +3305,10 @@ packages:
   /stdin-discarder@0.2.2:
     resolution: {integrity: sha512-UhDfHmA92YAlNnCfhmq0VeNL5bDbiZGg7sZ2IvPsXubGkiNa9EC+tUTsjBRsYUAz87btI6/1wf4XoVvQ3uRnmQ==}
     engines: {node: '>=18'}
+    dev: false
+
+  /stream-replace-string@2.0.0:
+    resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
     dev: false
 
   /string-width@4.2.3:
