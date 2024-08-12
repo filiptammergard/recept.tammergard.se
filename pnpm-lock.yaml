@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/preact':
         specifier: 3.5.1
-        version: 3.5.1(@babel/core@7.24.9)(preact@10.23.1)(vite@5.3.5)
+        version: 3.5.1(@babel/core@7.25.2)(preact@10.23.1)(vite@5.3.5)
       '@astrojs/react':
-        specifier: 3.6.1
-        version: 3.6.1(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.3.5)
+        specifier: 3.6.2
+        version: 3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.3.5)
       '@astrojs/sitemap':
         specifier: 3.1.6
         version: 3.1.6
@@ -64,8 +64,8 @@ packages:
     resolution: {integrity: sha512-Z9IYjuXSArkAUx3N6xj6+Bnvx8OdUSHA8YoOgyepp3+zJmtVYJIl/I18GozdJVW1p5u/CNpl3Km7/gwTJK85cw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
 
-  '@astrojs/react@3.6.1':
-    resolution: {integrity: sha512-Mpgu+GYTba1TEzLMshojeLxi7y/FqrTNtpGTCvI366bRbnCkqtvznRj/xPQOTybwXnYXSgxsELyUvqD51iFeiw==}
+  '@astrojs/react@3.6.2':
+    resolution: {integrity: sha512-fK29lYI7zK/KG4ZBy956x4dmauZcZ18osFkuyGa8r3gmmCQa2NZ9XNu9WaVYEUm0j89f4Gii4tbxLoyM8nk2MA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       '@types/react': ^17.0.50 || ^18.0.21
@@ -1960,13 +1960,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/preact@3.5.1(@babel/core@7.24.9)(preact@10.23.1)(vite@5.3.5)':
+  '@astrojs/preact@3.5.1(@babel/core@7.25.2)(preact@10.23.1)(vite@5.3.5)':
     dependencies:
-      '@babel/plugin-transform-react-jsx': 7.24.7(@babel/core@7.24.9)
-      '@babel/plugin-transform-react-jsx-development': 7.24.7(@babel/core@7.24.9)
-      '@preact/preset-vite': 2.8.2(@babel/core@7.24.9)(preact@10.23.1)(vite@5.3.5)
+      '@babel/plugin-transform-react-jsx': 7.24.7(@babel/core@7.25.2)
+      '@babel/plugin-transform-react-jsx-development': 7.24.7(@babel/core@7.25.2)
+      '@preact/preset-vite': 2.8.2(@babel/core@7.25.2)(preact@10.23.1)(vite@5.3.5)
       '@preact/signals': 1.3.0(preact@10.23.1)
-      babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.24.9)
+      babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.25.2)
       preact: 10.23.1
       preact-render-to-string: 6.5.6(preact@10.23.1)
     transitivePeerDependencies:
@@ -1978,7 +1978,7 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/react@3.6.1(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.3.5)':
+  '@astrojs/react@3.6.2(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(vite@5.3.5)':
     dependencies:
       '@types/react': 18.3.3
       '@types/react-dom': 18.3.0
@@ -2178,40 +2178,35 @@ snapshots:
     dependencies:
       '@babel/types': 7.25.2
 
-  '@babel/plugin-syntax-jsx@7.24.7(@babel/core@7.24.9)':
-    dependencies:
-      '@babel/core': 7.24.9
-      '@babel/helper-plugin-utils': 7.24.7
-
   '@babel/plugin-syntax-jsx@7.24.7(@babel/core@7.25.2)':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/helper-plugin-utils': 7.24.7
 
-  '@babel/plugin-transform-react-jsx-development@7.24.7(@babel/core@7.24.9)':
+  '@babel/plugin-transform-react-jsx-development@7.24.7(@babel/core@7.25.2)':
     dependencies:
-      '@babel/core': 7.24.9
-      '@babel/plugin-transform-react-jsx': 7.24.7(@babel/core@7.24.9)
+      '@babel/core': 7.25.2
+      '@babel/plugin-transform-react-jsx': 7.24.7(@babel/core@7.25.2)
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/plugin-transform-react-jsx-self@7.24.7(@babel/core@7.24.9)':
+  '@babel/plugin-transform-react-jsx-self@7.24.7(@babel/core@7.25.2)':
     dependencies:
-      '@babel/core': 7.24.9
-      '@babel/helper-plugin-utils': 7.24.7
+      '@babel/core': 7.25.2
+      '@babel/helper-plugin-utils': 7.24.8
 
-  '@babel/plugin-transform-react-jsx-source@7.24.7(@babel/core@7.24.9)':
+  '@babel/plugin-transform-react-jsx-source@7.24.7(@babel/core@7.25.2)':
     dependencies:
-      '@babel/core': 7.24.9
-      '@babel/helper-plugin-utils': 7.24.7
+      '@babel/core': 7.25.2
+      '@babel/helper-plugin-utils': 7.24.8
 
-  '@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.9)':
+  '@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.25.2)':
     dependencies:
-      '@babel/core': 7.24.9
+      '@babel/core': 7.25.2
       '@babel/helper-annotate-as-pure': 7.24.7
       '@babel/helper-module-imports': 7.24.7
       '@babel/helper-plugin-utils': 7.24.7
-      '@babel/plugin-syntax-jsx': 7.24.7(@babel/core@7.24.9)
+      '@babel/plugin-syntax-jsx': 7.24.7(@babel/core@7.25.2)
       '@babel/types': 7.24.9
     transitivePeerDependencies:
       - supports-color
@@ -2458,14 +2453,14 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@preact/preset-vite@2.8.2(@babel/core@7.24.9)(preact@10.23.1)(vite@5.3.5)':
+  '@preact/preset-vite@2.8.2(@babel/core@7.25.2)(preact@10.23.1)(vite@5.3.5)':
     dependencies:
-      '@babel/core': 7.24.9
-      '@babel/plugin-transform-react-jsx': 7.24.7(@babel/core@7.24.9)
-      '@babel/plugin-transform-react-jsx-development': 7.24.7(@babel/core@7.24.9)
+      '@babel/core': 7.25.2
+      '@babel/plugin-transform-react-jsx': 7.24.7(@babel/core@7.25.2)
+      '@babel/plugin-transform-react-jsx-development': 7.24.7(@babel/core@7.25.2)
       '@prefresh/vite': 2.4.5(preact@10.23.1)(vite@5.3.5)
       '@rollup/pluginutils': 4.2.1
-      babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.24.9)
+      babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.25.2)
       debug: 4.3.5
       kolorist: 1.8.0
       magic-string: 0.30.5
@@ -2636,9 +2631,9 @@ snapshots:
 
   '@vitejs/plugin-react@4.3.1(vite@5.3.5)':
     dependencies:
-      '@babel/core': 7.24.9
-      '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.24.9)
-      '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.24.9)
+      '@babel/core': 7.25.2
+      '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.25.2)
+      '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.25.2)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
       vite: 5.3.5
@@ -2753,9 +2748,9 @@ snapshots:
 
   axobject-query@4.1.0: {}
 
-  babel-plugin-transform-hook-names@1.0.2(@babel/core@7.24.9):
+  babel-plugin-transform-hook-names@1.0.2(@babel/core@7.25.2):
     dependencies:
-      '@babel/core': 7.24.9
+      '@babel/core': 7.25.2
 
   bail@2.0.2: {}
 
