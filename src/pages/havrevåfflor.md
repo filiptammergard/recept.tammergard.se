@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Recipe.astro
 title: Havrevåfflor
-description: Våfflor på havremjöl är så gott! Med kardemumma och äpplen blir en nyttig efterrätt (framför allt om vaniljsockret skippas).
+description: Våfflor på havremjöl är så gott! Med kardemumma och äpplen blir det en nyttig efterrätt (framför allt om vaniljsockret skippas).
 minutes: 45
 source: https://www.koket.se/havrevafflor-med-kardemumma-och-appelkompott
 ---
