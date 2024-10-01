@@ -6,7 +6,7 @@ minutes: 120
 source: https://alltommat.expressen.se/recept/kladdkaka-enkel/
 ---
 
-## Ingredienser (4 våfflor)
+## Ingredienser (en kaka)
 
 - 150 g smör
 - 3 dl strösocker
