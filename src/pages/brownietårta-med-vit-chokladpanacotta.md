@@ -42,5 +42,5 @@ minutes: 60
 1. **Pannacotta**: Lägg gelatinbladen i kallt vatten i ca 5 minuter.
 1. Koka upp grädde, mjölk och vaniljsocker. Bryt ner chokladen i gräddmjölken
    och låt smälta. Låt svalna lite innan du rör ner gelatinbladen. Häll
-   blandningen över browniebottnen och låt svalna i kyl i minst 2 timmar eller
+   blandningen över browniebottnen och låt svalna i kyl över natten eller
    tills pannacottan har stelnat.
