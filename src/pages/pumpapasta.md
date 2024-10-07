@@ -3,6 +3,7 @@ layout: ../layouts/Recipe.astro
 title: Pumpapasta
 description: Höstigt och härligt! Pumpa är verkligen festligt.
 minutes: 60
+source: https://www.ica.se/recept/kramig-pasta-med-rosmarin-pumpa-och-vita-bonor-721481/
 ---
 
 ## Ingredienser (4 portioner)
