@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/preact':
         specifier: 4.0.4
-        version: 4.0.4(@babel/core@7.26.7)(jiti@2.4.2)(preact@10.25.4)
+        version: 4.0.4(@babel/core@7.26.7)(jiti@2.4.2)(preact@10.26.0)
       '@astrojs/react':
         specifier: 4.2.0
         version: 4.2.0(@types/react-dom@18.3.0)(@types/react@18.3.3)(jiti@2.4.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -27,8 +27,8 @@ importers:
         specifier: 5.2.5
         version: 5.2.5(jiti@2.4.2)(rollup@4.34.6)(typescript@5.4.5)
       preact:
-        specifier: 10.25.4
-        version: 10.25.4
+        specifier: 10.26.0
+        version: 10.26.0
       prettier:
         specifier: 3.5.0
         version: 3.5.0
@@ -1540,8 +1540,8 @@ packages:
     peerDependencies:
       preact: '>=10'
 
-  preact@10.25.4:
-    resolution: {integrity: sha512-jLdZDb+Q+odkHJ+MpW/9U5cODzqnB+fy2EiHSZES7ldV5LK7yjlVzTp7R8Xy6W6y75kfK8iWYtFVH7lvjwrCMA==}
+  preact@10.26.0:
+    resolution: {integrity: sha512-6ugi/Mb7lyV5RA6KlnijFyDLMU253i7L0RRiObIzDoqj59KT9iTeNJbA/YGw6M7jP4vxaab0DOA8DgodTOA6EQ==}
 
   preferred-pm@4.1.1:
     resolution: {integrity: sha512-rU+ZAv1Ur9jAUZtGPebQVQPzdGhNzaEiQ7VL9+cjsAWPHFYOccNXPNiev1CCDSOg/2j7UujM7ojNhpkuILEVNQ==}
@@ -2072,15 +2072,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/preact@4.0.4(@babel/core@7.26.7)(jiti@2.4.2)(preact@10.25.4)':
+  '@astrojs/preact@4.0.4(@babel/core@7.26.7)(jiti@2.4.2)(preact@10.26.0)':
     dependencies:
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.7)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.7)
-      '@preact/preset-vite': 2.10.1(@babel/core@7.26.7)(preact@10.25.4)(vite@6.1.0(jiti@2.4.2))
-      '@preact/signals': 2.0.1(preact@10.25.4)
+      '@preact/preset-vite': 2.10.1(@babel/core@7.26.7)(preact@10.26.0)(vite@6.1.0(jiti@2.4.2))
+      '@preact/signals': 2.0.1(preact@10.26.0)
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.7)
-      preact: 10.25.4
-      preact-render-to-string: 6.5.13(preact@10.25.4)
+      preact: 10.26.0
+      preact-render-to-string: 6.5.13(preact@10.26.0)
       vite: 6.1.0(jiti@2.4.2)
     transitivePeerDependencies:
       - '@babel/core'
@@ -2521,12 +2521,12 @@ snapshots:
 
   '@oslojs/encoding@1.1.0': {}
 
-  '@preact/preset-vite@2.10.1(@babel/core@7.26.7)(preact@10.25.4)(vite@6.1.0(jiti@2.4.2))':
+  '@preact/preset-vite@2.10.1(@babel/core@7.26.7)(preact@10.26.0)(vite@6.1.0(jiti@2.4.2))':
     dependencies:
       '@babel/core': 7.26.7
       '@babel/plugin-transform-react-jsx': 7.25.9(@babel/core@7.26.7)
       '@babel/plugin-transform-react-jsx-development': 7.25.9(@babel/core@7.26.7)
-      '@prefresh/vite': 2.4.7(preact@10.25.4)(vite@6.1.0(jiti@2.4.2))
+      '@prefresh/vite': 2.4.7(preact@10.26.0)(vite@6.1.0(jiti@2.4.2))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.26.7)
       debug: 4.4.0
@@ -2539,27 +2539,27 @@ snapshots:
 
   '@preact/signals-core@1.8.0': {}
 
-  '@preact/signals@2.0.1(preact@10.25.4)':
+  '@preact/signals@2.0.1(preact@10.26.0)':
     dependencies:
       '@preact/signals-core': 1.8.0
-      preact: 10.25.4
+      preact: 10.26.0
 
   '@prefresh/babel-plugin@0.5.1': {}
 
-  '@prefresh/core@1.5.3(preact@10.25.4)':
+  '@prefresh/core@1.5.3(preact@10.26.0)':
     dependencies:
-      preact: 10.25.4
+      preact: 10.26.0
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.7(preact@10.25.4)(vite@6.1.0(jiti@2.4.2))':
+  '@prefresh/vite@2.4.7(preact@10.26.0)(vite@6.1.0(jiti@2.4.2))':
     dependencies:
       '@babel/core': 7.26.8
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.3(preact@10.25.4)
+      '@prefresh/core': 1.5.3(preact@10.26.0)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.25.4
+      preact: 10.26.0
       vite: 6.1.0(jiti@2.4.2)
     transitivePeerDependencies:
       - supports-color
@@ -3818,11 +3818,11 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact-render-to-string@6.5.13(preact@10.25.4):
+  preact-render-to-string@6.5.13(preact@10.26.0):
     dependencies:
-      preact: 10.25.4
+      preact: 10.26.0
 
-  preact@10.25.4: {}
+  preact@10.26.0: {}
 
   preferred-pm@4.1.1:
     dependencies:
