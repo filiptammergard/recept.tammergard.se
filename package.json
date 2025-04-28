@@ -12,7 +12,7 @@
 		"start": "astro dev"
 	},
 	"dependencies": {
-		"@astrojs/preact": "4.0.9",
+		"@astrojs/preact": "4.0.10",
 		"@astrojs/react": "4.2.4",
 		"@astrojs/sitemap": "3.3.0",
 		"@tammergard/prettier-config": "2.1.0",
