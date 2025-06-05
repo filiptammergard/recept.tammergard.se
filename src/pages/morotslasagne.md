@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Morotslasagne
 description: En smarrig och saftig lasagne! Perfekt i en morotsälskares matlåda.
 minutes: 60

@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Brownietårta med vit chokladpannacotta
 description: Vår bröllopstårta!
 minutes: 60

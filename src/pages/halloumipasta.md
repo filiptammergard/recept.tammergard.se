@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Halloumipasta
 description:
   En snabb favorit. Smakar finfint och perfekt att ta med sig som matsäck för

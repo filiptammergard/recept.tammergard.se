@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Vegetarisk tacopaj
 description: Den här tacopajen serverade vi på vår bröllopsfest.
 minutes: 60

@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Morotssoppa
 description:
   En härlig soppa som är smidig att göra mycket av. Väldigt god att äta med

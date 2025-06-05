@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Muggbrownie
 description:
   Detta är den ultimala lösningen på problemet "sugen på något chokladigt och

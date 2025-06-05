@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Hälsolimpa
 description: En smarrig limpa från Sofielund i Sala! Smidig att göra mycket av.
 minutes: 60

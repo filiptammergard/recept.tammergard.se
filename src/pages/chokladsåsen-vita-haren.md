@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Chokladsåsen vita haren
 description:
   En favorit från Filips farmor Ruth. Den långa kokningen gör underverk! Kan

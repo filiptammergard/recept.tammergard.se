@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Morotsscones
 description:
   Den godaste varianten av scones man kan tänka sig. Smakar lite som morotskaka.

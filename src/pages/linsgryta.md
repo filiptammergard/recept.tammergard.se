@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Linsgryta
 description:
   En perfekt kylskåpsrensningsrätt för den som oftast har linser och krossade

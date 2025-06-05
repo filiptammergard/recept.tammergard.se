@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Grönsakswok
 description:
   Smidigare rätt är svår att hitta! Men god är den. Kan serveras med till

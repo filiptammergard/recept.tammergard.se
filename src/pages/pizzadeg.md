@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Pizzadeg
 description: En enkel och bra pizzadeg, helt enkelt.
 minutes: 60

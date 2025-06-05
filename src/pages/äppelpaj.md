@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Äppelpaj
 description:
   Även känd under namnet "Bittes äppelpaj". Originalreceptet innehåller en hel

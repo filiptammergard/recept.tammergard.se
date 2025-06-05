@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Champinjonstuvning
 description:
   Krämig och god svamprätt! Är extra god till spaghetti, men det funkar fint med

@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Rabarbersaft
 description: Underbar rabarbersaft med smak av vanilj.
 minutes: 100

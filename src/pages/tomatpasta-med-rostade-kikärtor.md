@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Tomatpasta med rostade kikärtor
 description: En billig och god pastarätt!
 minutes: 30

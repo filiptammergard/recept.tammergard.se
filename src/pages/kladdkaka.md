@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Kladdkaka
 description: Det bästa, godaste, kladdigaste kladdkakan!
 minutes: 120

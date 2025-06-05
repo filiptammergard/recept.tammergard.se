@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Tomatpaj
 description: Smakrik och god tomatpaj. Funkar lika bra varm som kall.
 minutes: 60

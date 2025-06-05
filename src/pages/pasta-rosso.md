@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Pasta rosso
 description:
   En slät, smakrik sås till pastan. Passar bra att göra mycket av och frysa ner

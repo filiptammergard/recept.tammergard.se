@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Pumpapasta
 description: Höstigt och härligt! Pumpa är verkligen festligt.
 minutes: 60

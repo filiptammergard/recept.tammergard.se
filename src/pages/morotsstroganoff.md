@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Morotsstroganoff
 description:
   En väldigt god rätt! Morötterna blir godast om de får koka ganska länge så att

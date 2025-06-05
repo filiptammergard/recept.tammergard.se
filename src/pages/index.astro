@@ -2,6 +2,7 @@
 import BaseHead from "@components/BaseHead.astro"
 import Header from "@components/Header.astro"
 import RecipePreview from "@components/RecipePreview.astro"
+import type { Recipe } from "src/types/recipe"
 
 const title = "Recept"
 const description = "Filip & Ida Tammergårds receptsamling 😋"
@@ -9,7 +10,7 @@ const permalink = Astro.url.href
 const recipes = await Astro.glob("./*.md")
 ---
 
-<html lang="en">
+<html lang="sv">
 	<head>
 		<BaseHead title={title} description={description} permalink={permalink} />
 
@@ -39,7 +40,11 @@ const recipes = await Astro.glob("./*.md")
 				<p>{description}</p>
 			</section>
 			<section aria-label="Receptsamling">
-				{recipes.map((recipe) => <RecipePreview recipe={recipe} />)}
+				{
+					recipes.map((recipe) => (
+						<RecipePreview recipe={recipe as any as Recipe} />
+					))
+				}
 			</section>
 		</main>
 	</body>

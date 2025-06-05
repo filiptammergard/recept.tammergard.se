@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Baguetter
 description:
   Supersmidiga baguetter, inte minst när degen får jäsa över natten. Goda även

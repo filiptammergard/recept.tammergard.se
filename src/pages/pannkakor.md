@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Pannkakor
 description: Minst lika goda som vanliga pannkakor men nyttigare! Extra mycket ägg eftersom ägg är fullt av nyttigheter. Vetemjöl är delvis ersatt med nyttigare mjöl.
 minutes: 30

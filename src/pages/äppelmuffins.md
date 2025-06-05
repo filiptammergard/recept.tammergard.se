@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Äppelmuffins
 description: Underbara äppelmuffins utan raffinerat socker. Du kan göra ditt eget havremjöl genom att mixa havregryn tills det blir som grovt mjöl. Det går bra att byta ut honungen till äppelmos för extra äppelsmak.
 minutes: 45

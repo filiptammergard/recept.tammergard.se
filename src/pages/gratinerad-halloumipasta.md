@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Gratinerad halloumipasta
 description: En favoritpastagratäng!
 minutes: 45

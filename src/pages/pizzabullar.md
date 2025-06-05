@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Pizzabullar
 description: Dessa serverade vi till fika efter vår vigsel.
 minutes: 45

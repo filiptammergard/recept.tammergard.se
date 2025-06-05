@@ -4,7 +4,7 @@ import Header from "@components/Header.astro"
 import Recipe from "@components/Recipe.astro"
 
 interface Props {
-	content: {
+	frontmatter: {
 		description: string
 		minutes: string
 		source?: string
@@ -12,8 +12,8 @@ interface Props {
 	}
 }
 
-const { content } = Astro.props
-const { description, minutes, source, title } = content
+const { frontmatter } = Astro.props
+const { description, minutes, source, title } = frontmatter
 const permalink = Astro.url.href
 ---
 

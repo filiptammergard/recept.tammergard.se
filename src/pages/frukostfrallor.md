@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Frukostfrallor
 description:
   Goda frukostfrallor som är smidiga att göra. Man sätter bara en enkel deg på

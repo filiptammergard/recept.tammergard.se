@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Recipe.astro
+layout: ../layouts/RecipeLayout.astro
 title: Tryffelkaka
 description: Den bästa tryffelkakan, känd från Sofielund i Sala.
 minutes: 60
