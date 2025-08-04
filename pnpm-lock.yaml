@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/preact':
         specifier: 4.1.0
-        version: 4.1.0(@babel/core@7.27.1)(@types/node@24.1.0)(jiti@2.4.2)(preact@10.26.9)
+        version: 4.1.0(@babel/core@7.27.1)(@types/node@24.1.0)(jiti@2.4.2)(preact@10.27.0)
       '@astrojs/react':
         specifier: 4.3.0
         version: 4.3.0(@types/node@24.1.0)(@types/react-dom@18.3.0)(@types/react@18.3.3)(jiti@2.4.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -27,8 +27,8 @@ importers:
         specifier: 5.12.3
         version: 5.12.3(@types/node@24.1.0)(jiti@2.4.2)(rollup@4.46.1)(typescript@5.4.5)
       preact:
-        specifier: 10.26.9
-        version: 10.26.9
+        specifier: 10.27.0
+        version: 10.27.0
       prettier:
         specifier: 3.6.2
         version: 3.6.2
@@ -1397,8 +1397,8 @@ packages:
     peerDependencies:
       preact: '>=10'
 
-  preact@10.26.9:
-    resolution: {integrity: sha512-SSjF9vcnF27mJK1XyFMNJzFd5u3pQiATFqoaDy03XuN00u4ziveVVEGt5RKJrDR8MHE/wJo9Nnad56RLzS2RMA==}
+  preact@10.27.0:
+    resolution: {integrity: sha512-/DTYoB6mwwgPytiqQTh/7SFRL98ZdiD8Sk8zIUVOxtwq4oWcwrcd1uno9fE/zZmUaUrFNYzbH14CPebOz9tZQw==}
 
   prettier@3.6.2:
     resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
@@ -1895,12 +1895,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/preact@4.1.0(@babel/core@7.27.1)(@types/node@24.1.0)(jiti@2.4.2)(preact@10.26.9)':
+  '@astrojs/preact@4.1.0(@babel/core@7.27.1)(@types/node@24.1.0)(jiti@2.4.2)(preact@10.27.0)':
     dependencies:
-      '@preact/preset-vite': 2.10.1(@babel/core@7.27.1)(preact@10.26.9)(vite@6.3.5(@types/node@24.1.0)(jiti@2.4.2))
-      '@preact/signals': 2.0.5(preact@10.26.9)
-      preact: 10.26.9
-      preact-render-to-string: 6.5.13(preact@10.26.9)
+      '@preact/preset-vite': 2.10.1(@babel/core@7.27.1)(preact@10.27.0)(vite@6.3.5(@types/node@24.1.0)(jiti@2.4.2))
+      '@preact/signals': 2.0.5(preact@10.27.0)
+      preact: 10.27.0
+      preact-render-to-string: 6.5.13(preact@10.27.0)
       vite: 6.3.5(@types/node@24.1.0)(jiti@2.4.2)
     transitivePeerDependencies:
       - '@babel/core'
@@ -2284,12 +2284,12 @@ snapshots:
 
   '@oslojs/encoding@1.1.0': {}
 
-  '@preact/preset-vite@2.10.1(@babel/core@7.27.1)(preact@10.26.9)(vite@6.3.5(@types/node@24.1.0)(jiti@2.4.2))':
+  '@preact/preset-vite@2.10.1(@babel/core@7.27.1)(preact@10.27.0)(vite@6.3.5(@types/node@24.1.0)(jiti@2.4.2))':
     dependencies:
       '@babel/core': 7.27.1
       '@babel/plugin-transform-react-jsx': 7.27.1(@babel/core@7.27.1)
       '@babel/plugin-transform-react-jsx-development': 7.27.1(@babel/core@7.27.1)
-      '@prefresh/vite': 2.4.7(preact@10.26.9)(vite@6.3.5(@types/node@24.1.0)(jiti@2.4.2))
+      '@prefresh/vite': 2.4.7(preact@10.27.0)(vite@6.3.5(@types/node@24.1.0)(jiti@2.4.2))
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.27.1)
       debug: 4.4.1
@@ -2302,27 +2302,27 @@ snapshots:
 
   '@preact/signals-core@1.8.0': {}
 
-  '@preact/signals@2.0.5(preact@10.26.9)':
+  '@preact/signals@2.0.5(preact@10.27.0)':
     dependencies:
       '@preact/signals-core': 1.8.0
-      preact: 10.26.9
+      preact: 10.27.0
 
   '@prefresh/babel-plugin@0.5.1': {}
 
-  '@prefresh/core@1.5.3(preact@10.26.9)':
+  '@prefresh/core@1.5.3(preact@10.27.0)':
     dependencies:
-      preact: 10.26.9
+      preact: 10.27.0
 
   '@prefresh/utils@1.2.0': {}
 
-  '@prefresh/vite@2.4.7(preact@10.26.9)(vite@6.3.5(@types/node@24.1.0)(jiti@2.4.2))':
+  '@prefresh/vite@2.4.7(preact@10.27.0)(vite@6.3.5(@types/node@24.1.0)(jiti@2.4.2))':
     dependencies:
       '@babel/core': 7.27.1
       '@prefresh/babel-plugin': 0.5.1
-      '@prefresh/core': 1.5.3(preact@10.26.9)
+      '@prefresh/core': 1.5.3(preact@10.27.0)
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
-      preact: 10.26.9
+      preact: 10.27.0
       vite: 6.3.5(@types/node@24.1.0)(jiti@2.4.2)
     transitivePeerDependencies:
       - supports-color
@@ -3495,11 +3495,11 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact-render-to-string@6.5.13(preact@10.26.9):
+  preact-render-to-string@6.5.13(preact@10.27.0):
     dependencies:
-      preact: 10.26.9
+      preact: 10.27.0
 
-  preact@10.26.9: {}
+  preact@10.27.0: {}
 
   prettier@3.6.2: {}
 
