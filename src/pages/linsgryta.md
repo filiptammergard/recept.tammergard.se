@@ -5,7 +5,7 @@ description:
   En perfekt kylskåpsrensningsrätt för den som oftast har linser och krossade
   tomater hemma. Det går bra att byta ut till exempel rotfrukterna och
   kidneybönorna mot majs, paprika eller i stort sett vad som helst som skulle
-  behöva användas  i skafferiet eller kylskåpet. Denna rätt funkar bra till
+  behöva användas i skafferiet eller kylskåpet. Denna rätt funkar bra till
   många olika typer av kolhydrater. Riktigt gott till ris!
 minutes: 45
 ---
@@ -19,7 +19,7 @@ minutes: 45
 - 1 grönsaksbuljongtärning
 - 2 dl röda linser
 - 5 dl vatten
-- 400 g burk krossade tomater
+- 400 g krossade tomater
 - 400 g kidneybönor
 - 2 vitlöksklyftor
 - ev 1/2 msk rödvinsvinäger
