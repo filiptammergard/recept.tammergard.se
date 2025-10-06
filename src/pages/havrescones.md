@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/RecipeLayout.astro
 title: Havrescones
-description: Smidiga pch annorlunda scones, utan mjöl. Saftiga och goda!
+description: Smidiga och annorlunda scones, utan mjöl. Saftiga och goda!
 minutes: 40
 source: https://lindasbakskola.se/2021/01/05/havergrynsfrallor-utan-vetemjol/
 ---
