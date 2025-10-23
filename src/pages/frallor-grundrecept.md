@@ -6,16 +6,17 @@ minutes: 60
 source: https://www.sverigesradio.se/avsnitt/ett-recept-till-alla-mojliga-brod
 ---
 
-## Ingredienser (8 små frallor)
+## Ingredienser (16 frallor)
 
-- en liten bit jäst, ungefär stor som en kikärta
+- 1/2 tsk jäst, ungefär stor som en tärning
 - 5 dl vatten
-- 1 liter vetemjöl (ungefär 630 g), går fint att bland olika mjölsorter
+- 10 dl vetemjöl (ungefär 620 g), går fint att bland olika mjölsorter
+- 2 tsk salt
 
 ## Tillagning
 
-1. Smula ner jästen i en bunke. Tillsätt vatten, mjöl och salt och blanda till en lös deg med en slickepott.
-1. Täck bunken med lock eller plastfolie och låt jäsa över natten (eller ca 8 timmar).
+1. Smula ner jästen i en bunke. Tillsätt vatten, mjöl och salt och blanda till en lös deg med en slev eller en slickepott.
+1. Täck bunken med lock eller plastfolie och låt jäsa över natten (eller ca 8 timmar) i rumstemperatur.
 1. Skrapa ut degen på ett mjölat bakbord med en slickepott.
 1. Sätt ugnen på 250 grader. Dra ut degen till en kvadrat, vik in kanterna och vänd den upp och ner. Låt degen jäsa en stund.
 1. Strö lite mjöl på degen och dela i 4 längder med en degskrapa. Dela sedan varje längd till 4 frallor och lägg på bakplåtspapper.
