@@ -13,7 +13,7 @@
 	},
 	"dependencies": {
 		"@astrojs/preact": "4.1.1",
-		"@astrojs/react": "4.4.0",
+		"@astrojs/react": "4.4.1",
 		"@astrojs/sitemap": "3.6.0",
 		"@tammergard/prettier-config": "2.1.0",
 		"@tammergard/tsconfig": "2.9.0",
