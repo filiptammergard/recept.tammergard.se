@@ -17,7 +17,7 @@
 		"@astrojs/sitemap": "3.7.0",
 		"@tammergard/prettier-config": "2.1.0",
 		"@tammergard/tsconfig": "2.9.0",
-		"astro": "5.17.1",
+		"astro": "5.17.2",
 		"preact": "10.28.3",
 		"prettier": "3.8.1",
 		"react": "19.2.4",
