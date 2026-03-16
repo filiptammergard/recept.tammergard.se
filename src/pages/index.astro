@@ -7,7 +7,9 @@ import type { Recipe } from "src/types/recipe"
 const title = "Recept"
 const description = "Filip & Ida Tammergårds receptsamling 😋"
 const permalink = Astro.url.href
-const recipes = await Astro.glob("./*.md")
+const recipes = Object.values(
+	import.meta.glob<Recipe>("./*.md", { eager: true }),
+)
 ---
 
 <html lang="sv">
