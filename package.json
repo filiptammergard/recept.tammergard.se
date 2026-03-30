@@ -14,7 +14,7 @@
 	"dependencies": {
 		"@astrojs/preact": "5.0.2",
 		"@astrojs/react": "5.0.1",
-		"@astrojs/sitemap": "3.7.1",
+		"@astrojs/sitemap": "3.7.2",
 		"@tammergard/prettier-config": "2.1.0",
 		"@tammergard/tsconfig": "2.9.0",
 		"astro": "6.0.8",
