@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@astrojs/preact':
-        specifier: 5.0.2
-        version: 5.0.2(@babel/core@7.29.0)(@types/node@25.0.6)(jiti@2.4.2)(preact@10.29.0)(rollup@4.60.1)
+        specifier: 5.1.0
+        version: 5.1.0(@babel/core@7.29.0)(@types/node@25.0.6)(jiti@2.4.2)(preact@10.29.0)(rollup@4.60.1)
       '@astrojs/react':
         specifier: 5.0.2
         version: 5.0.2(@types/node@25.0.6)(@types/react-dom@18.3.0)(@types/react@18.3.3)(jiti@2.4.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -50,8 +50,8 @@ packages:
   '@astrojs/markdown-remark@7.1.0':
     resolution: {integrity: sha512-P+HnCsu2js3BoTc8kFmu+E9gOcFeMdPris75g+Zl4sY8+bBRbSQV6xzcBDbZ27eE7yBGEGQoqjpChx+KJYIPYQ==}
 
-  '@astrojs/preact@5.0.2':
-    resolution: {integrity: sha512-u3bzJQuTtWgq5hBexo++Djo/SfgB2bsyN6IVzmLcxIy00Ma5DVvHFXHU1kKSUOD8/D/2YgN/5bxdRtKGTDQrGQ==}
+  '@astrojs/preact@5.1.0':
+    resolution: {integrity: sha512-XW/QTgfLYPaPbY1kFr/asG36BiI36wOjnbTjOrSXPZR937gYQ4O+HpZBhVxnObTsDi2jilgiVdSjC8jaX6Bx/Q==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
       preact: ^10.6.5
@@ -515,8 +515,8 @@ packages:
   '@preact/signals-core@1.14.0':
     resolution: {integrity: sha512-AowtCcCU/33lFlh1zRFf/u+12rfrhtNakj7UpaGEsmMwUKpKWMVvcktOGcwBBNiB4lWrZWc01LhiyyzVklJyaQ==}
 
-  '@preact/signals@2.8.2':
-    resolution: {integrity: sha512-gym5yoa64c+0w2kL7zRAAjY548qzWXbbuOfjsK9F1nWrEqooDwyWnih5SNdonjhQSp27zUqYh7UrxIRnkCyFCA==}
+  '@preact/signals@2.9.0':
+    resolution: {integrity: sha512-hYrY0KyUqkDgOl1qba/JGn6y81pXnurn21PMaxfcMwdncdZ3M/oVdmpTvEnsGjh48dIwDVc7bjWHqIsngSjYug==}
     peerDependencies:
       preact: '>= 10.25.0 || >=11.0.0-0'
 
@@ -1354,8 +1354,8 @@ packages:
     resolution: {integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  preact-render-to-string@6.6.6:
-    resolution: {integrity: sha512-EfqZJytnjJldV+YaaqhthU2oXsEf5e+6rDv957p+zxAvNfFLQOPfvBOTncscQ+akzu6Wrl7s3Pa0LjUQmWJsGQ==}
+  preact-render-to-string@6.6.7:
+    resolution: {integrity: sha512-3XdbsX3+vn9dQW+jJI/FsI9rlkgl6dbeUpqLsChak6jp3j3auFqBCkno7VChbMFs5Q8ylBj6DrUkKRwtVN3nvw==}
     peerDependencies:
       preact: '>=10 || >= 11.0.0-0'
 
@@ -1791,14 +1791,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/preact@5.0.2(@babel/core@7.29.0)(@types/node@25.0.6)(jiti@2.4.2)(preact@10.29.0)(rollup@4.60.1)':
+  '@astrojs/preact@5.1.0(@babel/core@7.29.0)(@types/node@25.0.6)(jiti@2.4.2)(preact@10.29.0)(rollup@4.60.1)':
     dependencies:
       '@astrojs/internal-helpers': 0.8.0
       '@preact/preset-vite': 2.10.5(@babel/core@7.29.0)(preact@10.29.0)(rollup@4.60.1)(vite@7.3.1(@types/node@25.0.6)(jiti@2.4.2))
-      '@preact/signals': 2.8.2(preact@10.29.0)
+      '@preact/signals': 2.9.0(preact@10.29.0)
       devalue: 5.6.4
       preact: 10.29.0
-      preact-render-to-string: 6.6.6(preact@10.29.0)
+      preact-render-to-string: 6.6.7(preact@10.29.0)
       vite: 7.3.1(@types/node@25.0.6)(jiti@2.4.2)
     transitivePeerDependencies:
       - '@babel/core'
@@ -2237,7 +2237,7 @@ snapshots:
 
   '@preact/signals-core@1.14.0': {}
 
-  '@preact/signals@2.8.2(preact@10.29.0)':
+  '@preact/signals@2.9.0(preact@10.29.0)':
     dependencies:
       '@preact/signals-core': 1.14.0
       preact: 10.29.0
@@ -3340,7 +3340,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  preact-render-to-string@6.6.6(preact@10.29.0):
+  preact-render-to-string@6.6.7(preact@10.29.0):
     dependencies:
       preact: 10.29.0
 
