@@ -2,24 +2,41 @@
 import BaseHead from "@components/BaseHead.astro"
 import Header from "@components/Header.astro"
 import Recipe from "@components/Recipe.astro"
+import type { CollectionEntry } from "astro:content"
 
 interface Props {
-	frontmatter: {
-		description: string
-		minutes: string
-		source?: string
-		title: string
-	}
+	frontmatter: CollectionEntry<"recipes">["data"] & { source?: string }
 }
 
 const { frontmatter } = Astro.props
-const { description, minutes, source, title } = frontmatter
+const { description, minutes, source, title, category } = frontmatter
 const permalink = Astro.url.href
+
+const jsonLd = {
+	"@context": "https://schema.org",
+	"@type": "Recipe",
+	name: title,
+	description,
+	url: permalink,
+	totalTime: `PT${minutes}M`,
+	recipeCategory: category,
+	image: new URL("/assets/social.jpg", Astro.site).toString(),
+	author: {
+		"@type": "Organization",
+		name: "Filip & Ida Tammergård",
+	},
+	...(source ? { isBasedOn: source } : {}),
+}
 ---
 
 <html lang="sv">
 	<head>
 		<BaseHead description={description} permalink={permalink} title={title} />
+		<script
+			is:inline
+			type="application/ld+json"
+			set:html={JSON.stringify(jsonLd)}
+		/>
 	</head>
 
 	<body>

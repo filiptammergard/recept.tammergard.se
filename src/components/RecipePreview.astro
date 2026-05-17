@@ -1,39 +1,58 @@
 ---
-import type { Recipe } from "src/types/recipe"
+import type { CollectionEntry } from "astro:content"
 
 export interface Props {
-	recipe: Recipe
+	recipe: CollectionEntry<"recipes">
 }
 
 const { recipe } = Astro.props
+const { title, description, minutes, category } = recipe.data
+const href = `/${recipe.id}`
 ---
 
-<article>
-	<header>
-		<a href={recipe.url}>
-			<h1>{recipe.frontmatter.title}</h1>
-		</a>
-		<p>{recipe.frontmatter.minutes} min</p>
-	</header>
-	<p>{recipe.frontmatter.description}</p>
-	<a href={recipe.url}>Läs mer</a>
+<article
+	class="recipe-card"
+	data-category={category}
+	data-title={title.toLowerCase()}
+	data-minutes={minutes}
+>
+	<h2 class="card-title">
+		<a class="card-link" href={href}>{title}</a>
+	</h2>
+	<p class="meta">{minutes} min · {category}</p>
+	<p class="description">{description}</p>
 </article>
 
 <style>
-	article {
+	.recipe-card {
+		position: relative;
 		padding-bottom: 2rem;
 		margin-bottom: 2rem;
 		border-bottom: 4px solid var(--theme-divider);
 	}
 
-	header {
-		padding-bottom: 2rem;
-	}
-
-	article h1 {
-		margin: 0;
+	.card-title {
+		margin: 0 0 0.5rem;
 		font-weight: 700;
 		font-size: 1.5rem;
+	}
+
+	.card-link {
 		color: var(--theme-text);
+	}
+
+	.card-link::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+	}
+
+	.meta {
+		margin: 0 0 1rem;
+		color: var(--theme-text-light);
+	}
+
+	.description {
+		margin: 0;
 	}
 </style>

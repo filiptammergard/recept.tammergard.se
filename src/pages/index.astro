@@ -2,14 +2,27 @@
 import BaseHead from "@components/BaseHead.astro"
 import Header from "@components/Header.astro"
 import RecipePreview from "@components/RecipePreview.astro"
-import type { Recipe } from "src/types/recipe"
+import { type CollectionEntry, getCollection } from "astro:content"
 
 const title = "Recept"
 const description = "Filip & Ida Tammergårds receptsamling 😋"
 const permalink = Astro.url.href
-const recipes = Object.values(
-	import.meta.glob<Recipe>("./*.md", { eager: true }),
+
+type RecipeEntry = CollectionEntry<"recipes">
+
+const recipes: RecipeEntry[] = (await getCollection("recipes")).sort(
+	(a: RecipeEntry, b: RecipeEntry) =>
+		a.data.title.localeCompare(b.data.title, "sv"),
 )
+
+const categories = ["Huvudrätt", "Efterrätt", "Bröd", "Frukost", "Dryck"]
+
+const timeOptions = [
+	{ value: "all", label: "Alla tider" },
+	{ value: "15", label: "≤ 15 min" },
+	{ value: "30", label: "≤ 30 min" },
+	{ value: "60", label: "≤ 60 min" },
+]
 ---
 
 <html lang="sv">
@@ -23,31 +36,253 @@ const recipes = Object.values(
 
 			.intro {
 				margin-top: 6rem;
-				padding-bottom: 2rem;
 				margin-bottom: 2rem;
-				border-bottom: 4px solid var(--theme-divider);
 			}
 
 			.title {
 				margin: 0;
 			}
+
+			.filters {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+				padding-bottom: 2rem;
+				margin-bottom: 2rem;
+				border-bottom: 4px solid var(--theme-divider);
+			}
+
+			.filters-row {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5rem;
+			}
+
+			.search {
+				width: 100%;
+				padding: 0.75rem 1rem;
+				font: inherit;
+				font-size: 1rem;
+				border: 2px solid var(--theme-divider);
+				border-radius: 0.25rem;
+				background: transparent;
+				color: var(--theme-text);
+			}
+
+			.search:focus {
+				outline: 2px solid var(--theme-text);
+				outline-offset: 2px;
+			}
+
+			.time-select {
+				padding: 0.5rem 1rem;
+				font: inherit;
+				font-size: 0.95rem;
+				border: 2px solid var(--theme-divider);
+				border-radius: 999px;
+				background: transparent;
+				color: var(--theme-text);
+				cursor: pointer;
+			}
+
+			.categories {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5rem;
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				flex: 1;
+			}
+
+			.chip {
+				padding: 0.5rem 1rem;
+				font: inherit;
+				font-size: 0.95rem;
+				border: 2px solid var(--theme-divider);
+				border-radius: 999px;
+				background: transparent;
+				color: var(--theme-text);
+				cursor: pointer;
+			}
+
+			.chip[aria-pressed="true"] {
+				background: var(--theme-text);
+				color: var(--theme-bg);
+				border-color: var(--theme-text);
+			}
+
+			.empty {
+				display: none;
+				padding: 2rem 0;
+			}
+
+			.empty.visible {
+				display: block;
+			}
 		</style>
+
+		<noscript>
+			<style>
+				.filters {
+					display: none;
+				}
+			</style>
+		</noscript>
 	</head>
 
 	<body>
 		<Header />
 		<main class="wrapper">
 			<section class="intro" aria-labelledby="title">
-				<h1 class="title">{title}</h1>
+				<h1 class="title" id="title">{title}</h1>
 				<p>{description}</p>
 			</section>
-			<section aria-label="Receptsamling">
+
+			<section class="filters no-print" aria-label="Filtrera recept">
+				<input
+					class="search"
+					type="search"
+					placeholder="Sök recept…"
+					aria-label="Sök recept"
+					autocomplete="off"
+					data-filter-search
+				/>
+				<div class="filters-row">
+					<ul class="categories" role="list">
+						<li>
+							<button
+								class="chip"
+								type="button"
+								aria-pressed="true"
+								data-filter-category="all"
+							>
+								Alla
+							</button>
+						</li>
+						{
+							categories.map((cat) => (
+								<li>
+									<button
+										class="chip"
+										type="button"
+										aria-pressed="false"
+										data-filter-category={cat}
+									>
+										{cat}
+									</button>
+								</li>
+							))
+						}
+					</ul>
+					<select
+						class="time-select"
+						aria-label="Filtrera på tid"
+						data-filter-time
+					>
+						{
+							timeOptions.map((opt) => (
+								<option value={opt.value}>{opt.label}</option>
+							))
+						}
+					</select>
+				</div>
+			</section>
+
+			<section aria-label="Receptsamling" data-recipes>
 				{
-					recipes.map((recipe) => (
-						<RecipePreview recipe={recipe as any as Recipe} />
+					recipes.map((recipe: RecipeEntry) => (
+						<RecipePreview recipe={recipe} />
 					))
 				}
+				<p class="empty" data-empty>Inga recept matchar din sökning.</p>
 			</section>
 		</main>
+
+		<script>
+			const root = document.querySelector<HTMLElement>("[data-recipes]")
+			const search = document.querySelector<HTMLInputElement>(
+				"[data-filter-search]",
+			)
+			const chips = document.querySelectorAll<HTMLButtonElement>(
+				"[data-filter-category]",
+			)
+			const timeSelect = document.querySelector<HTMLSelectElement>(
+				"[data-filter-time]",
+			)
+			const empty = document.querySelector<HTMLElement>("[data-empty]")
+
+			if (root && search && timeSelect && empty) {
+				const params = new URLSearchParams(window.location.search)
+				let activeCategory = params.get("kategori") ?? "all"
+				let query = (params.get("q") ?? "").toLowerCase()
+				let maxMinutes = params.get("max") ?? "all"
+
+				search.value = params.get("q") ?? ""
+				timeSelect.value = maxMinutes
+				chips.forEach((c) =>
+					c.setAttribute(
+						"aria-pressed",
+						c.dataset.filterCategory === activeCategory ? "true" : "false",
+					),
+				)
+
+				const syncUrl = () => {
+					const p = new URLSearchParams()
+					if (query) p.set("q", query)
+					if (activeCategory !== "all") p.set("kategori", activeCategory)
+					if (maxMinutes !== "all") p.set("max", maxMinutes)
+					const qs = p.toString()
+					const url = qs ? `?${qs}` : window.location.pathname
+					window.history.replaceState(null, "", url)
+				}
+
+				const apply = () => {
+					const cards = root.querySelectorAll<HTMLElement>(".recipe-card")
+					let visible = 0
+					const limit =
+						maxMinutes === "all" ? Number.POSITIVE_INFINITY : Number(maxMinutes)
+					cards.forEach((card) => {
+						const cat = card.dataset.category ?? ""
+						const title = card.dataset.title ?? ""
+						const minutes = Number(card.dataset.minutes ?? "0")
+						const matchesCat =
+							activeCategory === "all" || cat === activeCategory
+						const matchesQuery = !query || title.includes(query)
+						const matchesTime = minutes <= limit
+						const show = matchesCat && matchesQuery && matchesTime
+						card.hidden = !show
+						if (show) visible++
+					})
+					empty.classList.toggle("visible", visible === 0)
+					syncUrl()
+				}
+
+				search.addEventListener("input", () => {
+					query = search.value.trim().toLowerCase()
+					apply()
+				})
+
+				chips.forEach((chip) => {
+					chip.addEventListener("click", () => {
+						activeCategory = chip.dataset.filterCategory ?? "all"
+						chips.forEach((c) =>
+							c.setAttribute(
+								"aria-pressed",
+								c === chip ? "true" : "false",
+							),
+						)
+						apply()
+					})
+				})
+
+				timeSelect.addEventListener("change", () => {
+					maxMinutes = timeSelect.value
+					apply()
+				})
+
+				apply()
+			}
+		</script>
 	</body>
 </html>
