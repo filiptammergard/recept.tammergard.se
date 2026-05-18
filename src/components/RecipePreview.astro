@@ -5,9 +5,18 @@ export interface Props {
 	recipe: CollectionEntry<"recipes">
 }
 
+const categoryEmoji: Record<string, string> = {
+	Huvudrätt: "🥘",
+	Efterrätt: "🍰",
+	Bröd: "🥖",
+	Frukost: "🥐",
+	Dryck: "🥤",
+}
+
 const { recipe } = Astro.props
 const { title, description, minutes, category } = recipe.data
 const href = `/${recipe.id}`
+const emoji = categoryEmoji[category] ?? "🍽"
 ---
 
 <article
@@ -16,43 +25,111 @@ const href = `/${recipe.id}`
 	data-title={title.toLowerCase()}
 	data-minutes={minutes}
 >
+	<span class="category-badge" aria-hidden="true">{emoji}</span>
 	<h2 class="card-title">
 		<a class="card-link" href={href}>{title}</a>
 	</h2>
-	<p class="meta">{minutes} min · {category}</p>
+	<p class="meta">
+		<span class="meta-item"
+			><span aria-hidden="true">⏱</span>&nbsp;{minutes} min</span
+		>
+		<span class="meta-dot" aria-hidden="true">·</span>
+		<span class="meta-item">{category}</span>
+	</p>
 	<p class="description">{description}</p>
 </article>
 
 <style>
 	.recipe-card {
 		position: relative;
-		padding-bottom: 2rem;
-		margin-bottom: 2rem;
-		border-bottom: 4px solid var(--theme-divider);
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		padding: 1.75rem 1.5rem 1.5rem;
+		background: var(--theme-surface);
+		border: 1px solid var(--theme-divider);
+		border-radius: 1rem;
+		box-shadow: var(--theme-shadow);
+		transition:
+			transform 0.18s ease,
+			box-shadow 0.18s ease,
+			border-color 0.18s ease;
+	}
+
+	.recipe-card[hidden] {
+		display: none;
+	}
+
+	.recipe-card:hover,
+	.recipe-card:focus-within {
+		transform: translateY(-2px);
+		box-shadow: var(--theme-shadow-hover);
+		border-color: var(--theme-accent-soft);
+	}
+
+	.category-badge {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		font-size: 1.5rem;
+		line-height: 1;
+		filter: saturate(0.95);
 	}
 
 	.card-title {
-		margin: 0 0 0.5rem;
-		font-weight: 700;
+		margin: 0;
 		font-size: 1.5rem;
+		font-weight: 600;
+		letter-spacing: -0.01em;
+		padding-right: 2.5rem;
 	}
 
 	.card-link {
 		color: var(--theme-text);
+		text-decoration: none;
 	}
 
 	.card-link::after {
 		content: "";
 		position: absolute;
 		inset: 0;
+		border-radius: inherit;
+	}
+
+	.recipe-card:hover .card-link,
+	.recipe-card:focus-within .card-link {
+		color: var(--theme-accent);
 	}
 
 	.meta {
-		margin: 0 0 1rem;
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+		margin: 0;
+		font-size: 0.9rem;
 		color: var(--theme-text-light);
+	}
+
+	.meta-item {
+		white-space: nowrap;
+	}
+
+	.meta-dot {
+		opacity: 0.5;
 	}
 
 	.description {
 		margin: 0;
+		color: var(--theme-text-light);
+		line-height: 1.55;
+	}
+
+	@media print {
+		.recipe-card {
+			box-shadow: none;
+			border: 1px solid #ccc;
+			break-inside: avoid;
+		}
 	}
 </style>

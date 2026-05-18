@@ -15,6 +15,14 @@ const recipes: RecipeEntry[] = (await getCollection("recipes")).sort(
 		a.data.title.localeCompare(b.data.title, "sv"),
 )
 
+const categoryEmoji: Record<string, string> = {
+	Huvudrätt: "🥘",
+	Efterrätt: "🍰",
+	Bröd: "🥖",
+	Frukost: "🥐",
+	Dryck: "🥤",
+}
+
 const categories = ["Huvudrätt", "Efterrätt", "Bröd", "Frukost", "Dryck"]
 
 const timeOptions = [
@@ -23,6 +31,8 @@ const timeOptions = [
 	{ value: "30", label: "≤ 30 min" },
 	{ value: "60", label: "≤ 60 min" },
 ]
+
+const totalCount = recipes.length
 ---
 
 <html lang="sv">
@@ -30,59 +40,78 @@ const timeOptions = [
 		<BaseHead title={title} description={description} permalink={permalink} />
 
 		<style>
-			.wrapper {
-				margin-bottom: 8rem;
+			.hero {
+				margin-top: 3rem;
+				margin-bottom: 2.5rem;
 			}
 
-			.intro {
-				margin-top: 6rem;
-				margin-bottom: 2rem;
+			.hero-eyebrow {
+				display: inline-block;
+				margin-bottom: 0.5rem;
+				font-size: 0.85rem;
+				font-weight: 500;
+				letter-spacing: 0.12em;
+				text-transform: uppercase;
+				color: var(--theme-accent);
 			}
 
-			.title {
+			.hero-title {
 				margin: 0;
+			}
+
+			.hero-description {
+				margin-top: 0.75rem;
+				max-width: 40ch;
+				font-size: 1.1rem;
+				color: var(--theme-text-light);
 			}
 
 			.filters {
 				display: flex;
 				flex-direction: column;
-				gap: 1rem;
-				padding-bottom: 2rem;
-				margin-bottom: 2rem;
-				border-bottom: 4px solid var(--theme-divider);
+				gap: 0.75rem;
+				margin-bottom: 1.5rem;
+			}
+
+			.search-wrap {
+				position: relative;
+			}
+
+			.search {
+				width: 100%;
+				padding: 0.85rem 1rem 0.85rem 2.75rem;
+				font: inherit;
+				font-size: 1rem;
+				border: 1px solid var(--theme-divider);
+				border-radius: 0.75rem;
+				background: var(--theme-surface);
+				color: var(--theme-text);
+				box-shadow: var(--theme-shadow);
+			}
+
+			.search:focus {
+				outline: none;
+				border-color: var(--theme-accent);
+				box-shadow:
+					0 0 0 3px var(--theme-accent-soft),
+					var(--theme-shadow);
+			}
+
+			.search-icon {
+				position: absolute;
+				left: 1rem;
+				top: 50%;
+				transform: translateY(-50%);
+				font-size: 1.05rem;
+				color: var(--theme-text-light);
+				pointer-events: none;
 			}
 
 			.filters-row {
 				display: flex;
 				flex-wrap: wrap;
 				gap: 0.5rem;
-			}
-
-			.search {
-				width: 100%;
-				padding: 0.75rem 1rem;
-				font: inherit;
-				font-size: 1rem;
-				border: 2px solid var(--theme-divider);
-				border-radius: 0.25rem;
-				background: transparent;
-				color: var(--theme-text);
-			}
-
-			.search:focus {
-				outline: 2px solid var(--theme-text);
-				outline-offset: 2px;
-			}
-
-			.time-select {
-				padding: 0.5rem 1rem;
-				font: inherit;
-				font-size: 0.95rem;
-				border: 2px solid var(--theme-divider);
-				border-radius: 999px;
-				background: transparent;
-				color: var(--theme-text);
-				cursor: pointer;
+				align-items: center;
 			}
 
 			.categories {
@@ -96,35 +125,96 @@ const timeOptions = [
 			}
 
 			.chip {
-				padding: 0.5rem 1rem;
+				display: inline-flex;
+				align-items: center;
+				gap: 0.35rem;
+				padding: 0.45rem 0.9rem;
 				font: inherit;
-				font-size: 0.95rem;
-				border: 2px solid var(--theme-divider);
+				font-size: 0.9rem;
+				font-weight: 500;
+				border: 1px solid var(--theme-divider);
 				border-radius: 999px;
-				background: transparent;
+				background: var(--theme-surface);
 				color: var(--theme-text);
 				cursor: pointer;
+				transition:
+					background 0.15s ease,
+					border-color 0.15s ease,
+					color 0.15s ease;
+			}
+
+			.chip:hover {
+				border-color: var(--theme-accent);
 			}
 
 			.chip[aria-pressed="true"] {
-				background: var(--theme-text);
+				background: var(--theme-accent);
 				color: var(--theme-bg);
-				border-color: var(--theme-text);
+				border-color: var(--theme-accent);
+			}
+
+			.chip-emoji {
+				font-size: 1rem;
+				line-height: 1;
+			}
+
+			.time-select {
+				padding: 0.45rem 2rem 0.45rem 0.9rem;
+				font: inherit;
+				font-size: 0.9rem;
+				font-weight: 500;
+				border: 1px solid var(--theme-divider);
+				border-radius: 999px;
+				background: var(--theme-surface)
+					url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path fill='%236b5e54' d='M2 4l4 4 4-4z'/></svg>")
+					no-repeat right 0.65rem center;
+				color: var(--theme-text);
+				cursor: pointer;
+				appearance: none;
+			}
+
+			.count {
+				margin-bottom: 1.25rem;
+				font-size: 0.9rem;
+				color: var(--theme-text-light);
+			}
+
+			.count strong {
+				color: var(--theme-text);
+				font-weight: 600;
+			}
+
+			.recipe-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+				gap: 1.25rem;
+				margin-bottom: 5rem;
 			}
 
 			.empty {
 				display: none;
-				padding: 2rem 0;
+				grid-column: 1 / -1;
+				padding: 3rem 1rem;
+				text-align: center;
+				font-size: 1.1rem;
+				color: var(--theme-text-light);
 			}
 
 			.empty.visible {
 				display: block;
 			}
+
+			.empty-emoji {
+				display: block;
+				font-size: 2.5rem;
+				margin-bottom: 0.5rem;
+			}
 		</style>
 
 		<noscript>
 			<style>
-				.filters {
+				.filters,
+				.count {
 					display: none;
 				}
 			</style>
@@ -134,20 +224,24 @@ const timeOptions = [
 	<body>
 		<Header />
 		<main class="wrapper">
-			<section class="intro" aria-labelledby="title">
-				<h1 class="title" id="title">{title}</h1>
-				<p>{description}</p>
+			<section class="hero" aria-labelledby="title">
+				<span class="hero-eyebrow">Tammergård</span>
+				<h1 class="hero-title" id="title">Recept</h1>
+				<p class="hero-description">{description}</p>
 			</section>
 
 			<section class="filters no-print" aria-label="Filtrera recept">
-				<input
-					class="search"
-					type="search"
-					placeholder="Sök recept…"
-					aria-label="Sök recept"
-					autocomplete="off"
-					data-filter-search
-				/>
+				<div class="search-wrap">
+					<span class="search-icon" aria-hidden="true">🔍</span>
+					<input
+						class="search"
+						type="search"
+						placeholder="Sök recept…"
+						aria-label="Sök recept"
+						autocomplete="off"
+						data-filter-search
+					/>
+				</div>
 				<div class="filters-row">
 					<ul class="categories" role="list">
 						<li>
@@ -169,6 +263,9 @@ const timeOptions = [
 										aria-pressed="false"
 										data-filter-category={cat}
 									>
+										<span class="chip-emoji" aria-hidden="true">
+											{categoryEmoji[cat]}
+										</span>
 										{cat}
 									</button>
 								</li>
@@ -189,13 +286,25 @@ const timeOptions = [
 				</div>
 			</section>
 
-			<section aria-label="Receptsamling" data-recipes>
+			<p class="count no-print" data-count>
+				Visar <strong data-count-visible>{totalCount}</strong> av
+				<strong>{totalCount}</strong> recept
+			</p>
+
+			<section
+				class="recipe-grid"
+				aria-label="Receptsamling"
+				data-recipes
+			>
 				{
 					recipes.map((recipe: RecipeEntry) => (
 						<RecipePreview recipe={recipe} />
 					))
 				}
-				<p class="empty" data-empty>Inga recept matchar din sökning.</p>
+				<p class="empty" data-empty>
+					<span class="empty-emoji" aria-hidden="true">🤷</span>
+					Inga recept matchar din sökning.
+				</p>
 			</section>
 		</main>
 
@@ -211,8 +320,11 @@ const timeOptions = [
 				"[data-filter-time]",
 			)
 			const empty = document.querySelector<HTMLElement>("[data-empty]")
+			const countVisible = document.querySelector<HTMLElement>(
+				"[data-count-visible]",
+			)
 
-			if (root && search && timeSelect && empty) {
+			if (root && search && timeSelect && empty && countVisible) {
 				const params = new URLSearchParams(window.location.search)
 				let activeCategory = params.get("kategori") ?? "all"
 				let query = (params.get("q") ?? "").toLowerCase()
@@ -255,6 +367,7 @@ const timeOptions = [
 						if (show) visible++
 					})
 					empty.classList.toggle("visible", visible === 0)
+					countVisible.textContent = String(visible)
 					syncUrl()
 				}
 
