@@ -21,7 +21,7 @@ const emoji = categoryEmoji[category] ?? "🍽"
 
 <article
 	class="recipe-card"
-	data-category={category}
+	data-category={category.toLowerCase()}
 	data-title={title.toLowerCase()}
 	data-minutes={minutes}
 >
