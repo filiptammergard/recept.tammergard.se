@@ -15,7 +15,7 @@
 		"@astrojs/sitemap": "3.7.2",
 		"@tammergard/prettier-config": "3.0.1",
 		"@tammergard/tsconfig": "2.10.0",
-		"astro": "6.3.7",
+		"astro": "6.4.2",
 		"prettier": "3.8.3"
 	},
 	"packageManager": "pnpm@10.33.0"
