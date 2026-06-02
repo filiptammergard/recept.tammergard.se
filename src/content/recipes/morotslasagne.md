@@ -19,7 +19,7 @@ category: Huvudrätt
 - 1 tsk rosmarin
 - 2 dl chilisås
 - 250 g keso
-- 250 g crème fraîche
+- 250 g creme fraiche
 - ca 2 dl riven ost
 - lasagneplattor
 
@@ -30,7 +30,7 @@ category: Huvudrätt
 1. Tillsätt krossade tomater, pressad vitlök, kryddor och chilisås så att
    blandningen får god smak. Låt puttra ca 15 minuter på svag värme.
 1. Smaka av och krydda eventuellt mer. Ta grytan av plattan och rör ner keso och
-   crème fraîche.
+   creme fraiche.
 1. Varva sås och lasagneplattor i en ugnssäker form. Börja och sluta med sås.
    Toppa med riven ost.
 1. Grädda i mitten av ugnen ca 20-25 minuter eller tills lasagnen har fått fin färg.

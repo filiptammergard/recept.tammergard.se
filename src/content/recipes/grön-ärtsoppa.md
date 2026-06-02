@@ -30,5 +30,5 @@ source: https://www.ica.se/recept/gronartsoppa-med-tunnbrodrulle-721735/
 1. Häll på grädde och buljong och låt koka tills potatisen är mjuk.
 1. Häll i hälften av ärtorna och värm upp.
 1. Mixa slätt med en stavmixer.
-1. Koka upp soppan med resten av ärtorna. Smaka av noggrannt med salt och
+1. Koka upp soppan med resten av ärtorna. Smaka av noggrant med salt och
    peppar, det ska vara ganska rejält kryddat!

@@ -19,7 +19,7 @@ category: Bröd
 
 1. Smula ner jästen i en degbunke. Häll på lite av vattnet och rör om tills
    jästen är upplöst. Tillsätt resten av vattnet, saltet och mjölet.
-1. Arbeta degen kraftigt. Den ska vara lös. Täck bunken med plastfolie. Låtdegen
+1. Arbeta degen kraftigt. Den ska vara lös. Täck bunken med plastfolie. Låt degen
    jäsa 4-5 timmar eller i kylskåpet över natten. Under tiden som degen jäser
    bildas fukt som droppar ner på ytan och håller den lätt fuktig.
 1. Mjöla bakbordet. Häll ut degen. Knåda den inte utan forma bara till den. Skär

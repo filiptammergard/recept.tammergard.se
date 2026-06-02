@@ -19,7 +19,7 @@ category: Huvudrätt
 - lite chilipulver och paprikapulver
 - 2 msk tomatpuré
 - 1 dl vatten
-- 1 1/2 dl crème fraîche
+- 1 1/2 dl creme fraiche
 - 230 g kidneybönor
 - 1/2 aubergine
 
@@ -30,5 +30,5 @@ category: Huvudrätt
    lite färg.
 1. Tillsätt tomatpurén och vattnet. Låt det småputtra tills morötterna nätt och
    jämt är mjuka.
-1. Tärna auberginen. Rör i crème fraîche, bönor och aubergine. Låt det koka upp.
+1. Tärna auberginen. Rör i creme fraiche, bönor och aubergine. Låt det koka upp.
 1. Servera med ris, pasta, potatis, matvete eller liknande.

@@ -18,7 +18,7 @@ category: Huvudrätt
 **Fyllning**
 
 - 500 gram torra linser
-- 2 burkar tomatkross á 500 g
+- 2 burkar tomatkross à 500 g
 - lite vatten
 - 3 påsar tacokryddmix
 - 2 rivna morötter
@@ -26,7 +26,7 @@ category: Huvudrätt
 
 **Sås**
 
-- 5 dl lätt crème fraiche
+- 5 dl lätt creme fraiche
 - 8 msk majonnäs, lätt
 - 2-3 klyftor vitlök
 - 4 tomater

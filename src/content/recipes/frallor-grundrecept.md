@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/RecipeLayout.astro
 title: Frallor grundrecept
-description: Från Martins Johanssons bok Ett recept, hundra bröd, som bara innehåller ett enda recept som kan varieras för att göra en massa olika sorters bröd. Sommaren 2025 lånade jag den boken och bakade frallor varje morgon medan vi var på Gotland några veckor. Jag varierade frallorna något varje dag för att få lit e känsla kring hur smak, konsistens och utseende varierar när man har olika sorters mjöl eller andra små justeringar.
+description: Från Martin Johanssons bok Ett recept, hundra bröd, som bara innehåller ett enda recept som kan varieras för att göra en massa olika sorters bröd. Sommaren 2025 lånade jag den boken och bakade frallor varje morgon medan vi var på Gotland några veckor. Jag varierade frallorna något varje dag för att få lite känsla kring hur smak, konsistens och utseende varierar när man har olika sorters mjöl eller andra små justeringar.
 minutes: 60
 category: Bröd
 source: https://www.sverigesradio.se/avsnitt/ett-recept-till-alla-mojliga-brod
@@ -11,7 +11,7 @@ source: https://www.sverigesradio.se/avsnitt/ett-recept-till-alla-mojliga-brod
 
 - 1/2 tsk jäst, ungefär stor som en kikärta
 - 5 dl vatten
-- 10 dl vetemjöl (ungefär 620 g), går fint att bland olika mjölsorter
+- 10 dl vetemjöl (ungefär 620 g), går fint att blanda olika mjölsorter
 - 2 tsk salt
 
 ## Tillagning

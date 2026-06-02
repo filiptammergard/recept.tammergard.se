@@ -19,13 +19,13 @@ source: https://www.arla.se/recept/sota-morotsscones/
 - 1 tsk malen kanel
 - 75 g smör
 - 2 dl rivna morötter
-- 2 dl crème fraîche
+- 2 dl creme fraiche
 
 ## Tillagning
 
 1. Sätt ugnen på 225°C. Blanda mjöl, havregryn, bakpulver, salt, socker och
    kanel.
-1. Finfördela smöret i blandningen. Rör ner morötter och crème fraîche.
+1. Finfördela smöret i blandningen. Rör ner morötter och creme fraiche.
 1. Dela degen i 2 delar. Platta ut dem till tunna, runda kakor med mjölad hand
    på bakplåtspapper på en plåt. Skåra dem med kniv i 4 delar.
 1. Grädda i mitten av ugnen 15-18 minuter. Låt dem svalna.

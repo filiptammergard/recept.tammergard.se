@@ -15,7 +15,7 @@ category: Huvudrätt
 - 1 gul lök
 - 1 vitlöksklyfta
 - 350 g champinjoner
-- 3 dl crème fraîche
+- 3 dl creme fraiche
 - 4 msk färskriven parmesanost, plus lite till servering
 - salt
 - svartpeppar
@@ -26,7 +26,7 @@ category: Huvudrätt
    vitlök på låg värme tills den har mjuknat.
 1. Skiva champinjonerna och stek dem med löken i ytterligare 10 minuter. Rör om
    då och då.
-1. Rör ned crème fraîche och parmesanost i svamppytten och smaka av med salt och
+1. Rör ned creme fraiche och parmesanost i svamppytten och smaka av med salt och
    peppar. Värm i ett par minuter.
 1. Servera med till exempel spaghetti och parmesanost att garnera med.
    Svampsåsen och pastan kan även blandas ihop i förväg.

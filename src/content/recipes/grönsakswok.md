@@ -21,6 +21,6 @@ source: https://www.coop.se/recept/gronsakswok-med-cashewnotter/
 ## Tillagning
 
 1. Koka nudlarna enligt anvisningarna på förpackningen.
-1. Hätta upp olja i en wokpanna. Stek grönsakerna i några minuter tills de har
+1. Hetta upp olja i en wokpanna. Stek grönsakerna i några minuter tills de har
    fått lite färg.
 1. Tillsätt nötter, sweet chilisås och kryddor.

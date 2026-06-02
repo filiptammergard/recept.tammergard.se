@@ -39,7 +39,7 @@ category: Huvudrätt
 - Arbeta in 10 deciliter av vetemjölet och knåda länge. Gärna 10 minuter med
   maskin. Låt jäsa till dubbel storlek (30-45 minuter beroende på vilken
   temperatur luften runt degen har).
-- **Fyllning**:Hacka de soltorkade tomaterna fint.
+- **Fyllning**: Hacka de soltorkade tomaterna fint.
 - Skala och hacka löken fint. Fräs den mjuk i lite matolja.
 - Koka upp 2 deciliter vatten och blanda i tomatpurén och resten av
   ingredienserna. Rör även i de soltorkade tomaterna och låt koka ihop några

@@ -23,6 +23,6 @@ category: Efterrätt
 - Blanda socker, mjölk, grädde, smör och salt i en stor kastrull
 - Sjud sakta utan lock i 60 minuter. Rör då och då och se till att det inte
   kokar över.
-- Ta bort kastrullem från värmen. Blanda ner kakaon och vispa i 15 minuter för
-  hand eller havla tiden med elvisp.
+- Ta bort kastrullen från värmen. Blanda ner kakaon och vispa i 15 minuter för
+  hand eller halva tiden med elvisp.
 - Smaksätt med vaniljsocker.

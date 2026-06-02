@@ -19,7 +19,7 @@ category: Huvudrätt
 - 200 g halloumi
 - 3 tomater
 - 2 msk pesto
-- 2 dl crème fraîche, keso eller mjölk
+- 2 dl creme fraiche, keso eller mjölk
 
 ## Tillagning
 
@@ -29,6 +29,6 @@ category: Huvudrätt
    blanda i kryddorna.
 1. Skiva halloumin och stek tills den är gyllenbrun på båda sidorna. Tärna den
    och häll i kastrullen.
-1. Tärna tomaterna och häll i kastrullen tillsammans med pesto och créme
-   fraîche, keso eller mjölk. Det går bra att avstå från pesto och créme
-   fraîche, keso eller mjölk beroende på hur krämig man vill ha pastasalladen.
+1. Tärna tomaterna och häll i kastrullen tillsammans med pesto och creme
+   fraiche, keso eller mjölk. Det går bra att avstå från pesto och creme
+   fraiche, keso eller mjölk beroende på hur krämig man vill ha pastasalladen.

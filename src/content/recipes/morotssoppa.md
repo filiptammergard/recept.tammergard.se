@@ -20,7 +20,7 @@ category: Huvudrätt
 - 5 dl vatten
 - 2 grönsaksbuljongtärningar
 - 2 dl mjölk
-- 2 dl crème fraîche
+- 2 dl creme fraiche
 - 3 tomater
 - 1/2 tsk salt
 - 2 krm svartpeppar
@@ -30,8 +30,8 @@ category: Huvudrätt
 1. Skala och riv morötterna grovt med ett rivjärn. Skala och finhacka löken.
    Fräs morötter och lök i olja ca 3 minuter. Tillsätt paprikapulver, oregano och
    timjan. Låt fräsa med ca 2 minuter.
-1. Tillsätt vatten, buljongtärningar, mjölk och crème fraîche. Låt puttra ca 10
+1. Tillsätt vatten, buljongtärningar, mjölk och creme fraiche. Låt puttra ca 10
    minuter tills morotsbitarna mjuknat.
 1. Skölj och tärna tomaterna. Tillsätt dem till soppan. Krydda med salt och
    peppar.
-1. Sverva gärna med hembakat bröd.
+1. Servera gärna med hembakat bröd.
