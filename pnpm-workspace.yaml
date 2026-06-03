@@ -4,4 +4,3 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - "@tammergard/*"
-  - astro@6.4.3
