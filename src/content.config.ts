@@ -1,5 +1,6 @@
 import { glob } from "astro/loaders"
-import { defineCollection, z } from "astro:content"
+import { defineCollection } from "astro:content"
+import { z } from "zod"
 
 const recipes = defineCollection({
 	loader: glob({ pattern: "**/*.md", base: "./src/content/recipes" }),
@@ -8,7 +9,7 @@ const recipes = defineCollection({
 		description: z.string(),
 		minutes: z.number(),
 		category: z.enum(["Huvudrätt", "Efterrätt", "Bröd", "Frukost", "Dryck"]),
-		source: z.string().url().optional(),
+		source: z.url().optional(),
 	}),
 })
 
