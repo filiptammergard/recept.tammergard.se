@@ -12,8 +12,8 @@ importers:
         specifier: 3.7.3
         version: 3.7.3
       '@tammergard/prettier-config':
-        specifier: 3.0.1
-        version: 3.0.1(prettier@3.8.3)
+        specifier: 3.0.2
+        version: 3.0.2(prettier@3.8.3)
       '@tammergard/tsconfig':
         specifier: 2.10.0
         version: 2.10.0(typescript@5.4.5)
@@ -571,9 +571,8 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-  '@tammergard/prettier-config@3.0.1':
-    resolution: {integrity: sha512-NmVgPQJgZE3Zf4GQ/fPKAi3jCEET10MMKfKBasRfnT/V4bxlu2kHzh8oFwP/7M/0d1udWfKFyRWs3kq9jUZcfw==}
-    engines: {node: '>=24'}
+  '@tammergard/prettier-config@3.0.2':
+    resolution: {integrity: sha512-TAAYGSfsf0YLKDhb4VuczP2VQJ0BbNCE1Swbgrci8rso/sucLFsguiwC+O+37V1Y7LZuKZRlIxL3Cg8DaeJc/A==}
     peerDependencies:
       prettier: '>=3.0.0'
 
@@ -1875,7 +1874,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@tammergard/prettier-config@3.0.1(prettier@3.8.3)':
+  '@tammergard/prettier-config@3.0.2(prettier@3.8.3)':
     dependencies:
       prettier: 3.8.3
 
