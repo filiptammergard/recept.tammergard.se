@@ -13,7 +13,7 @@
 	},
 	"dependencies": {
 		"@astrojs/sitemap": "3.7.3",
-		"@tammergard/prettier-config": "3.0.1",
+		"@tammergard/prettier-config": "3.0.2",
 		"@tammergard/tsconfig": "2.10.0",
 		"astro": "6.4.2",
 		"prettier": "3.8.3"
