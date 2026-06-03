@@ -15,8 +15,8 @@ importers:
         specifier: 3.0.1
         version: 3.0.1(prettier@3.8.3)
       '@tammergard/tsconfig':
-        specifier: 2.10.0
-        version: 2.10.0(typescript@5.4.5)
+        specifier: 3.0.2
+        version: 3.0.2(typescript@5.4.5)
       astro:
         specifier: 6.4.2
         version: 6.4.2(@types/node@25.0.6)(jiti@2.4.2)(rollup@4.61.0)
@@ -577,10 +577,10 @@ packages:
     peerDependencies:
       prettier: '>=3.0.0'
 
-  '@tammergard/tsconfig@2.10.0':
-    resolution: {integrity: sha512-O+6u3GtsxbcSSAfzEnQQ+Bk+7LT2Jiv7nazNXoFzNT0PLer4c1Jxgp+Ki7LCKk+AdQNYwO2sVtQqsiKitgNXdQ==}
+  '@tammergard/tsconfig@3.0.2':
+    resolution: {integrity: sha512-bsuEvQdDqikQXFDI8sss2jtJcVOU4UIkTSGSWMFEI2nhutsOW78Mw5fXciblM0G4zzSpCzF8Y5BAsaO6njwLpA==}
     peerDependencies:
-      typescript: 5 || 6
+      typescript: '>=6'
 
   '@types/debug@4.1.13':
     resolution: {integrity: sha512-KSVgmQmzMwPlmtljOomayoR89W4FynCAi3E8PPs7vmDVPe84hT+vGPKkJfThkmXs0x0jAaa9U8uW8bbfyS2fWw==}
@@ -1879,7 +1879,7 @@ snapshots:
     dependencies:
       prettier: 3.8.3
 
-  '@tammergard/tsconfig@2.10.0(typescript@5.4.5)':
+  '@tammergard/tsconfig@3.0.2(typescript@5.4.5)':
     dependencies:
       typescript: 5.4.5
 
