@@ -21,7 +21,7 @@
 		"@tammergard/prettier-config": "^3.0.2",
 		"@tammergard/tsconfig": "^3.0.2",
 		"prettier": "^3.9.4",
-		"typescript": "^6.0.3"
+		"typescript": "^7.0.2"
 	},
 	"packageManager": "pnpm@11.5.1"
 }
